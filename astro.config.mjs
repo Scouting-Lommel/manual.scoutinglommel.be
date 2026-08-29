@@ -7,9 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'CMS-handleiding Scouting Lommel',
-			defaultLocale: 'nl',
+			defaultLocale: 'root',
 			locales: {
-				nl: { label: 'Nederlands', lang: 'nl' },
+				root: { label: 'Nederlands', lang: 'nl' },
 			},
 			sidebar: [
 				// Fixed TOC from the manual plan — one page per section.

@@ -1,16 +1,16 @@
 ---
 title: Wat je beter niet doet
-description: Dingen die je moet vermijden in de CMS — het Artikels-blok, ledengegevens en rechtstreekse wijzigingen aan de code.
+description: Dingen die je moet vermijden in het CMS — het Artikels-blok, ledengegevens en rechtstreekse wijzigingen aan de code.
 ---
 
 # Wat je beter niet doet
 
-De CMS is gemaakt om de website te beheren, maar niet alles wat erin staat is bedoeld om te
+Het CMS is gemaakt om de website te beheren, maar niet alles wat erin staat is bedoeld om te
 gebruiken. Dit zijn de drie belangrijkste dingen die je beter niet doet.
 
 ## 1. Gebruik het blok "Artikels" niet
 
-In de CMS bestaat een blok **"Artikels"** (Engels: *ArticlesBlock*). Dat blok wordt
+In het CMS bestaat een blok **"Artikels"** (Engels: *ArticlesBlock*). Dat blok wordt
 **niet ondersteund** door de website: de code van de website kent het blok niet, dus het
 verschijnt **nooit** op de pagina.
 
@@ -36,12 +36,12 @@ moet zo blijven.
 
 ## 3. Wijzig niets rechtstreeks in de code
 
-De website is meer dan alleen de CMS: er draait ook code achter (de "website-code" die de
+De website is meer dan alleen het CMS: er draait ook code achter (de "website-code" die de
 pagina's opbouwt). Die code wordt beheerd door de **ontwikkelaars**.
 
 - Wijzig **nooit** zelf iets in de code van de website — ook niet als je technisch
-  onderlegd bent. De CMS is de enige plek waar jij inhoud wijzigt.
-- Werkt er iets niet, of wil je iets dat de CMS niet kan? Meld het aan de ontwikkelaars
+  onderlegd bent. Het CMS is de enige plek waar jij inhoud wijzigt.
+- Werkt er iets niet, of wil je iets dat het CMS niet kan? Meld het aan de ontwikkelaars
   (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/)) in plaats van zelf te
   sleutelen.
 

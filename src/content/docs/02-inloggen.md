@@ -1,13 +1,13 @@
 ---
 title: Inloggen
-description: Waar je inlogt op de CMS, hoe je account werkt en wat je wel en niet te zien krijgt.
+description: Waar je inlogt op het CMS, hoe je account werkt en wat je wel en niet te zien krijgt.
 ---
 
 # Inloggen
 
 ## Waar log je in?
 
-De CMS heeft een eigen adres, apart van de website:
+Het CMS heeft een eigen adres, apart van de website:
 
 - **CMS (waar jij werkt):** [admin.scoutinglommel.be](https://admin.scoutinglommel.be)
 - **Website (wat bezoekers zien):** [scoutinglommel.be](https://www.scoutinglommel.be)
@@ -16,28 +16,28 @@ Open [admin.scoutinglommel.be](https://admin.scoutinglommel.be) in je browser en
 het account dat je van de groep gekregen hebt (e-mailadres en wachtwoord).
 
 <figure>
-  <img src="/captures/admin-login.png" alt="Het inlogscherm van de CMS" />
-  <figcaption>Het inlogscherm van de CMS op admin.scoutinglommel.be.</figcaption>
+  <img src="/captures/admin-login.png" alt="Het inlogscherm van het CMS" />
+  <figcaption>Het inlogscherm van het CMS op admin.scoutinglommel.be.</figcaption>
 </figure>
 
 ## Wat zie je na het inloggen?
 
-Na het inloggen kom je terecht in het **Content Manager**-overzicht: de lijst van alle
-inhoudstypen die je kan bewerken.
+Na het inloggen kom je terecht in het **Content Manager**-overzicht (de "inhoudsbeheerder"):
+de lijst van alle soorten inhoud die je kan bewerken.
 
 <figure>
-  <img src="/captures/admin-content-manager.png" alt="Het Content Manager-overzicht met alle inhoudstypen" />
-  <figcaption>Het Content Manager-overzicht: hier vind je alle inhoudstypen van de website.</figcaption>
+  <img src="/captures/admin-content-manager.png" alt="Het Content Manager-overzicht met alle soorten inhoud" />
+  <figcaption>Het Content Manager-overzicht: hier vind je alle soorten inhoud van de website.</figcaption>
 </figure>
 
 Een paar dingen die opvallen:
 
-- **De omgeving is Engelstalig.** De knoppen en menu's van de CMS zelf ("Content Manager",
-  "Media Library", "Settings", ...) staan in het Engels. Dat is normaal: zo is de CMS
-  gebouwd. De **inhoud zelf is Nederlandstalig**: de inhoudstypen hebben Nederlandse namen
+- **De omgeving is Engelstalig.** De knoppen en menu's van het CMS zelf ("Content Manager",
+  "Media Library", "Settings", ...) staan in het Engels. Dat is normaal: zo is het CMS
+  gebouwd. De **inhoud zelf is Nederlandstalig**: de soorten inhoud hebben Nederlandse namen
   zoals "Takken", "Evenementen" en "Handleidingen", en alle teksten die je bewerkt zijn
   gewoon Nederlands.
-- **Je ziet meer dan de website toont.** In de CMS staan ook inhoudstypen die niet
+- **Je ziet meer dan de website toont.** In het CMS staan ook soorten inhoud die niet
   rechtstreeks op de website verschijnen, of die je beter met rust laat. In
   [03 · Overzicht inhoudstypen](/03-overzicht-inhoudstypen/) lees je wat je waarvoor gebruikt.
 - **De "Leden"-lijst is zichtbaar, maar daar mag je niets wijzigen.** Daar staan

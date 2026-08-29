@@ -10,7 +10,7 @@ afbeeldingen toe aan pagina's, takken, evenementen en andere inhoud.
 
 ## De Media Library openen
 
-Klik in de zijkolom van de CMS op **"Media Library"**. Je ziet alle afbeeldingen en
+Klik in de zijkolom van het CMS op **"Media Library"**. Je ziet alle afbeeldingen en
 bestanden die al geüpload zijn.
 
 <figure>

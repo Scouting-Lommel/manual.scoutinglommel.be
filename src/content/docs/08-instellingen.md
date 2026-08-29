@@ -5,11 +5,11 @@ description: De algemene instellingen van de website — logo, onderhoudspagina 
 
 # Instellingen
 
-De algemene instellingen van de website staan in het enkele type **"Algemeen"** (Engels:
-*General Data*). Je vindt ze in het Content Manager onder de enkele types.
+De algemene instellingen van de website staan in het losse type **"Algemeen"** (Engels:
+*General Data*). Je vindt ze in het Content Manager onder de losse types.
 
 <figure>
-  <img src="/captures/admin-settings.png" alt="De algemene instellingen in de CMS" />
+  <img src="/captures/admin-settings.png" alt="De algemene instellingen in het CMS" />
   <figcaption>De algemene instellingen: logo, onderhoudspagina en meldingsbalk.</figcaption>
 </figure>
 

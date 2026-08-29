@@ -1,6 +1,6 @@
 ---
 title: CMS-handleiding Scouting Lommel
-description: Handleiding voor de redacteurs van de Scouting Lommel website — hoe de CMS werkt, hoe je pagina's bewerkt en waar je op moet letten.
+description: Handleiding voor de redacteurs van de Scouting Lommel website — hoe het CMS werkt, hoe je pagina's bewerkt en waar je op moet letten.
 ---
 
 # CMS-handleiding Scouting Lommel
@@ -14,7 +14,7 @@ om in te loggen.
 
 | Hoofdstuk | Waarover gaat het? |
 | --- | --- |
-| [01 · Inleiding](/01-inleiding/) | Hoe hangt de CMS samen met de website? |
+| [01 · Inleiding](/01-inleiding/) | Hoe hangt het CMS samen met de website? |
 | [02 · Inloggen](/02-inloggen/) | Waar log je in en wat zie je daar? |
 | [03 · Overzicht inhoudstypen](/03-overzicht-inhoudstypen/) | Alle soorten inhoud: pagina's, takken, leiders, kalender, tarieven, ... |
 | [04 · Een pagina bewerken](/04-pagina-bewerken/) | De blokken waarmee je een pagina opbouwt, opslaan en publiceren |
