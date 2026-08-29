@@ -260,12 +260,48 @@ function buildOverlaySvg(
   const fontSize = 16;
   const padX = 14;
   const padY = 10;
-  const gap = 28; // arrow length between label box and target
-  // Rough glyph advance for 16px sans-serif; clamped to the document width.
+  const gap = 28;
   const labelW = Math.min(label.length * 8.6 + padX * 2, docWidth - 16);
   const labelH = fontSize + padY * 2;
   const cx = box.x + box.width / 2;
   const cy = box.y + box.height / 2;
+
+  // Prefer the requested side, but fall back to whichever side has room so
+  // the label never lands outside the canvas (rough placements came from
+  // fixed positions clipping at the viewport edge).
+  const sides: CalloutPosition[] = [position, 'right', 'left', 'top', 'bottom'].filter(
+    (side, i, arr) => arr.indexOf(side) === i,
+  ) as CalloutPosition[];
+  let chosen: CalloutPosition = sides[0];
+  for (const side of sides) {
+    let sx: number;
+    let sy: number;
+    switch (side) {
+      case 'top':
+        sx = cx - labelW / 2;
+        sy = box.y - labelH - gap;
+        break;
+      case 'bottom':
+        sx = cx - labelW / 2;
+        sy = box.y + box.height + gap;
+        break;
+      case 'left':
+        sx = box.x - labelW - gap;
+        sy = cy - labelH / 2;
+        break;
+      case 'right':
+        sx = box.x + box.width + gap;
+        sy = cy - labelH / 2;
+        break;
+      default:
+        continue;
+    }
+    if (sx >= 4 && sx + labelW <= docWidth - 4 && sy >= 4 && sy + labelH <= docHeight - 4) {
+      chosen = side;
+      break;
+    }
+  }
+  position = chosen;
 
   // Label box placement relative to the target.
   let lx: number;
@@ -591,7 +627,7 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
     id: 'admin-homepage-edit',
     url: `${adminBase()}/admin/content-manager/single-types/api::home-page.home-page`,
     waitSelector: 'main form',
-    highlight: 'main form',
+    highlight: 'main form h1',
     label: 'Homepagina bewerken',
     callout: 'top',
   },
@@ -608,7 +644,7 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
     id: 'admin-group-edit',
     url: `${adminBase()}/admin/content-manager/collection-types/api::group.group`,
     waitSelector: 'main form',
-    highlight: 'main form',
+    highlight: 'main form h1',
     label: 'Tak bewerken',
     callout: 'top',
     resolve: resolveGroupEditUrl,
@@ -626,9 +662,10 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
     id: 'admin-settings',
     url: `${adminBase()}/admin/content-manager/single-types/api::general-data.general-data`,
     waitSelector: 'main form',
-    // GeneralData toggles are plain checkboxes; the "Onderhoudsmodus" field
-    // label is the stable anchor (maintenanceMode is covered in the manual).
-    highlight: 'label:has-text("Onderhoudsmodus")',
+    // GeneralData edit form is English chrome — the maintenance toggle's
+    // label is "Maintenance mode" (Dutch content labels only apply to
+    // content types, not field labels). Match both to be robust.
+    highlight: 'label:has-text("Maintenance mode"), label:has-text("Onderhoudsmodus")',
     label: 'Instellingen: algemene gegevens',
     callout: 'right',
   },
@@ -732,6 +769,68 @@ const FRONTEND_DEFINITIONS: ScreenshotDefinition[] = [
 // ---------------------------------------------------------------------------
 // Capture walkthroughs.
 // ---------------------------------------------------------------------------
+/**
+ * Dismiss UI chrome that pollutes screenshots: modals, dialogs, toasts and
+ * hover popovers. READ-ONLY by design: Escape key + close buttons only —
+ * never Save/Publish/Delete/Create/Upload, never form submits. Best-effort:
+ * anything that fails to close is logged, not fatal. The interaction
+ * allowlist's spirit (no CMS data mutations) is preserved.
+ */
+const POPUP_CLOSE_SELECTORS = [
+  '[aria-label="Close"]',
+  '[aria-label="close"]',
+  '[data-testid="modal-close-button"]',
+  '[data-testid="notification-close"]',
+  'button[aria-label*="close" i]',
+  'button[aria-label*="Close" i]',
+  'button:has-text("Skip")',
+  'button:has-text("Skip tour")',
+] as const;
+
+async function dismissPopups(page: Page): Promise<{ dismissed: number; dialogsAtShot: number }> {
+  let dismissed = 0;
+  await page.keyboard.press('Escape').catch(() => undefined);
+  await page.waitForTimeout(300);
+
+  for (const selector of POPUP_CLOSE_SELECTORS) {
+    try {
+      const locator = page.locator(selector);
+      const count = await locator.count().catch(() => 0);
+      for (let i = 0; i < Math.min(count, 5); i++) {
+        const btn = locator.nth(i);
+        if (await btn.isVisible().catch(() => false)) {
+          await btn.click({ timeout: 1500 }).catch(() => undefined);
+          dismissed += 1;
+          await page.waitForTimeout(200);
+        }
+      }
+    } catch {
+      /* selector not present */
+    }
+  }
+
+  await page.waitForTimeout(500);
+  const dialogsAtShot = await page
+    .locator('[role="dialog"]:visible, [role="alertdialog"]:visible')
+    .count()
+    .catch(() => 0);
+  return { dismissed, dialogsAtShot };
+}
+
+/** Wait until Strapi's async loading placeholders are gone (best-effort). */
+async function waitForContentSettled(page: Page): Promise<void> {
+  for (let i = 0; i < 10; i++) {
+    const loading = await page
+      .locator('text=/Loading widget content|Loading data|Loading \\.\\.\\./')
+      .isVisible()
+      .catch(() => false);
+    if (!loading) {
+      return;
+    }
+    await page.waitForTimeout(500);
+  }
+}
+
 async function captureDefinition(page: Page, def: ScreenshotDefinition, manifest: Manifest): Promise<void> {
   let url: string;
   try {
@@ -758,6 +857,10 @@ async function captureDefinition(page: Page, def: ScreenshotDefinition, manifest
     }
     throw err;
   }
+
+  await waitForContentSettled(page);
+  const { dismissed, dialogsAtShot } = await dismissPopups(page);
+  console.log(`[capture] ${def.id}: popups-dismissed=${dismissed} dialogs-at-shot=${dialogsAtShot}`);
 
   if (def.highlight && def.label) {
     try {
