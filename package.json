@@ -1,0 +1,12 @@
+{
+  "name": "manual.scoutinglommel.be",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.5.2",
+  "scripts": {},
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "tsx": "4.23.12"
+  }
+}
