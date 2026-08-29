@@ -1,43 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Stroomschema: CMS (Strapi) naar GraphQL naar Website naar Bezoeker">
-  <!-- achter de schermen -->
-  <rect x="20" y="60" width="580" height="170" rx="12" fill="none" stroke="#4d6e5a" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
-  <text x="36" y="82" font-size="12" fill="#4d6e5a" font-style="italic">achter de schermen</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Stroomschema: van het CMS naar de website naar de bezoeker">
   <!-- Box 1: CMS -->
-  <rect x="40" y="120" width="160" height="70" rx="10" fill="#364d3f"/>
-  <text x="120" y="152" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">CMS (Strapi)</text>
-  <text x="120" y="172" text-anchor="middle" font-size="12" fill="#d8e2da">waar jij werkt</text>
+  <rect x="60" y="120" width="200" height="80" rx="10" fill="#364d3f"/>
+  <text x="160" y="155" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">Het CMS (Strapi)</text>
+  <text x="160" y="178" text-anchor="middle" font-size="12" fill="#d8e2da">waar jij werkt</text>
 
   <!-- Arrow 1 -->
-  <line x1="200" y1="155" x2="238" y2="155" stroke="#4d6e5a" stroke-width="2.5"/>
-  <polygon points="238,155 228,149 228,161" fill="#4d6e5a"/>
-  <text x="219" y="142" text-anchor="middle" font-size="11" fill="#4d6e5a">inhoud</text>
+  <line x1="260" y1="160" x2="318" y2="160" stroke="#4d6e5a" stroke-width="2.5"/>
+  <polygon points="318,160 308,154 308,166" fill="#4d6e5a"/>
+  <text x="289" y="147" text-anchor="middle" font-size="11" fill="#4d6e5a">inhoud</text>
 
-  <!-- Box 2: GraphQL -->
-  <rect x="240" y="120" width="160" height="70" rx="10" fill="#4d6e5a"/>
-  <text x="320" y="152" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">GraphQL</text>
-  <text x="320" y="172" text-anchor="middle" font-size="12" fill="#d8e2da">de verbinding</text>
+  <!-- Box 2: Website -->
+  <rect x="320" y="120" width="200" height="80" rx="10" fill="#edb942"/>
+  <text x="420" y="155" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">Website</text>
+  <text x="420" y="178" text-anchor="middle" font-size="12" fill="#4a3b12">scoutinglommel.be</text>
 
   <!-- Arrow 2 -->
-  <line x1="400" y1="155" x2="438" y2="155" stroke="#4d6e5a" stroke-width="2.5"/>
-  <polygon points="438,155 428,149 428,161" fill="#4d6e5a"/>
-  <text x="419" y="142" text-anchor="middle" font-size="11" fill="#4d6e5a">data</text>
+  <line x1="520" y1="160" x2="578" y2="160" stroke="#4d6e5a" stroke-width="2.5"/>
+  <polygon points="578,160 568,154 568,166" fill="#4d6e5a"/>
+  <text x="549" y="147" text-anchor="middle" font-size="11" fill="#4d6e5a">pagina's</text>
 
-  <!-- Box 3: Website -->
-  <rect x="440" y="120" width="160" height="70" rx="10" fill="#edb942"/>
-  <text x="520" y="152" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">Website</text>
-  <text x="520" y="172" text-anchor="middle" font-size="12" fill="#4a3b12">scoutinglommel.be</text>
-
-  <!-- Arrow 3 -->
-  <line x1="600" y1="155" x2="638" y2="155" stroke="#4d6e5a" stroke-width="2.5"/>
-  <polygon points="638,155 628,149 628,161" fill="#4d6e5a"/>
-  <text x="619" y="142" text-anchor="middle" font-size="11" fill="#4d6e5a">pagina's</text>
-
-  <!-- Box 4: Bezoeker -->
-  <rect x="640" y="120" width="140" height="70" rx="10" fill="#e8e8e8" stroke="#c9c9c9"/>
-  <text x="710" y="152" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">Bezoeker</text>
-  <text x="710" y="172" text-anchor="middle" font-size="12" fill="#666666">ziet de pagina's</text>
+  <!-- Box 3: Bezoeker -->
+  <rect x="580" y="120" width="160" height="80" rx="10" fill="#e8e8e8" stroke="#c9c9c9"/>
+  <text x="660" y="155" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">Bezoeker</text>
+  <text x="660" y="178" text-anchor="middle" font-size="12" fill="#666666">ziet de pagina's</text>
 
   <!-- Caption -->
-  <text x="400" y="300" text-anchor="middle" font-size="14" fill="#364d3f">Jij bewerkt de inhoud in de CMS — de website toont ze automatisch aan de bezoeker.</text>
+  <text x="400" y="290" text-anchor="middle" font-size="14" fill="#364d3f">Jij bewerkt de inhoud in het CMS — de website toont ze automatisch aan de bezoeker.</text>
 </svg>

@@ -58,6 +58,55 @@ de website te zien krijgen:
 > ondersteund** door de website: het verschijnt niet op de pagina. Gebruik het dus niet. Zie
 > [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).
 
+## Welke velden vul je waar in?
+
+Elk blok heeft een aantal velden. De belangrijkste blokken in detail:
+
+**Hero** — de grote titelbalk bovenaan een pagina:
+
+- **Titel** → de grote kop bovenaan de pagina.
+- **Ondertitel** → de kleinere tekst onder de titel.
+- **Knop** (optioneel) → een knop met een label en een link (bv. "Schrijf je in").
+- **Jaarthema** (optioneel) → toont het jaarthema in de banner.
+
+**Tekst & afbeelding** — het werkpaard voor de meeste pagina's:
+
+- **Titel** → de kop boven de sectie.
+- **Tekst** → de lopende tekst.
+- **Afbeeldingen** → de foto('s) naast de tekst.
+- **Richting** (layout) → of de afbeelding links of rechts staat.
+- **Knop** (optioneel) → een knop onder de tekst.
+
+**Takken** — de lijst van takken:
+
+- **Titel** → de kop boven de lijst.
+- **Takken** → welke takken getoond worden; elk item toont de naam, het logo en een link
+  naar de pagina van de tak.
+
+**Veelgestelde vragen (FAQ)** — de uitklapbare vragen:
+
+- **Titel** → de kop boven de lijst.
+- **Ondertekst** (optioneel) → een tekst onder de titel.
+- **Vragen** → de vragen en antwoorden die bezoekers kunnen openklappen.
+
+**Tarieven** — de prijstabel:
+
+- **Titel** → de kop boven de tabel.
+- **Tarieven** → de rijen van de tabel (naam, bedrag, ...).
+
+**Bestanden** — downloadbare bestanden:
+
+- **Titel** → de kop boven de lijst.
+- **Bestanden** → de downloadbare bestanden met hun naam.
+
+De overige blokken (Evenementen, Galerij, Beleid, Leiders, Kaart, Activiteiten, Kalender,
+Jaarthema, Scheidingslijn) werken op dezelfde manier: je vult een titel en de bijbehorende
+items in, en de website toont ze als één sectie op de pagina.
+
+> **De gouden regel:** wat je in een veld typt, verschijnt op de website op de plek die het
+> veld aangeeft. De volgorde van de blokken is de volgorde op de pagina — van boven naar
+> beneden.
+
 ## Opslaan vs. publiceren
 
 In het CMS zijn er twee knoppen die op elkaar lijken:
@@ -71,5 +120,5 @@ De status van een item zie je bovenaan: **"Draft"** (concept) of **"Published"**
 (gepubliceerd). Vergeet dus niet te publiceren nadat je iets gewijzigd hebt — anders lijkt
 het alsof je wijziging "niet werkt" (zie ook [10 · Troubleshooting](/10-troubleshooting/)).
 
-Zodra je publiceert, is de wijziging **onmiddellijk live** bij de volgende paginalading —
-er is geen wachttijd en geen cache (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
+Zodra je publiceert, is de wijziging **meteen live** op de website — er is geen wachttijd
+(zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).

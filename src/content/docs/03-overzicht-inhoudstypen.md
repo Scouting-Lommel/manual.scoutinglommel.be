@@ -36,6 +36,15 @@ werkt, lees je in [04 · Een pagina bewerken](/04-pagina-bewerken/).
 De takken (kapoenen, welpen, jonggivers, ...) staan in de verzameling **"Takken"**. Elke tak
 heeft een naam, een beschrijving, een foto en een eigen pagina op de website.
 
+De belangrijkste velden van een tak:
+
+- **Naam** → de titel van de tak en de naam in het menu.
+- **Ondertitel** → de korte tekst onder de naam op de takpagina.
+- **Beschrijving** → de lopende tekst over de tak.
+- **Logo / foto** → de afbeelding van de tak.
+- **Leiders** → de leiding van de tak (koppeling naar de verzameling "Leiders").
+- **Blokken** → de onderdelen van de takpagina (op dezelfde manier als bij een gewone pagina).
+
 <figure>
   <img src="/captures/admin-groups-list.png" alt="De lijst van takken in het CMS" />
   <figcaption>De lijst van takken in het CMS.</figcaption>
@@ -51,6 +60,14 @@ Op de website zie je het resultaat op de pagina [scoutinglommel.be/takken](https
 <figure>
   <img src="/captures/site-takken.png" alt="De takkenpagina op de website" />
   <figcaption>De takkenpagina op de website, zoals bezoekers die zien.</figcaption>
+</figure>
+
+Elke tak heeft een eigen pagina, bijvoorbeeld
+[scoutinglommel.be/takken/kapoenen](https://www.scoutinglommel.be/takken/kapoenen):
+
+<figure>
+  <img src="/captures/site-tak-slug.png" alt="De pagina van één tak op de website" />
+  <figcaption>De pagina van één tak: naam, beschrijving, foto, leiding en activiteiten.</figcaption>
 </figure>
 
 ## Leiders
@@ -70,8 +87,8 @@ leiders zijn openbaar: ze verschijnen op de website bij de tak waartoe ze behore
   dashboardpagina van een tak).
 - **"Kalender"** — de kalenderweergave op een pagina.
 
-Deze gegevens worden door de website rechtstreeks bij het CMS opgehaald, dus een wijziging is
-meteen zichtbaar (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
+Deze gegevens verschijnen op de website zodra je ze publiceert (zie
+[06 · Publiceren & versheid](/06-publiceren-versheid/)).
 
 ## Tarieven
 

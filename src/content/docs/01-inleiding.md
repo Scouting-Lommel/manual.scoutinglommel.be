@@ -23,23 +23,19 @@ De website van Scouting Lommel bestaat uit twee delen:
 Het onderstaande schema toont hoe het in elkaar zit:
 
 <figure>
-  <img src="/flow.svg" alt="Stroomschema: CMS (Strapi) naar GraphQL naar Website naar Bezoeker" />
-  <figcaption>De weg van jouw inhoud: CMS → GraphQL → Website → Bezoeker.</figcaption>
+  <img src="/flow.svg" alt="Stroomschema: van het CMS naar de website naar de bezoeker" />
+  <figcaption>De weg van jouw inhoud: CMS → Website → Bezoeker.</figcaption>
 </figure>
 
 In gewone woorden:
 
-- **CMS (Strapi)** — jij typt een tekst of voegt een foto toe in het CMS. Het CMS bewaart alle
-  inhoud in een databank. Dit is de enige plek waar jij iets wijzigt.
-- **GraphQL** — de verbinding tussen het CMS en de website. Zo haalt de website de inhoud op
-  die jij in het CMS zet. Je hoeft hier niets van te kennen: het is gewoon de "brug" tussen
-  de twee. Elke keer dat iemand een pagina opent, vraagt de website de nieuwste inhoud op via
-  die verbinding.
-- **Website** — de website zet de opgevraagde inhoud om in mooie pagina's met blokken
-  (titels, teksten, foto's, kalenders, ...). Zie
-  [04 · Een pagina bewerken](/04-pagina-bewerken/) voor uitleg over die blokken.
-- **Bezoeker** — de bezoeker ziet het resultaat in de browser, zonder dat hij of zij iets
-  van het CMS merkt.
+- **Het CMS** — jij typt een tekst, voegt een foto toe of past een prijs aan. Dit is de
+  enige plek waar jij iets wijzigt.
+- **De website** — toont automatisch wat jij in het CMS hebt gezet. Je hoeft niets
+  technisch te doen: geen verbindingen, geen knoppen, geen extra stappen.
+- **De bezoeker** — ziet het resultaat op de website, zonder iets van het CMS te merken.
+
+Het enige dat je moet onthouden: **wat jij in het CMS zet, verschijnt op de website.**
 
 ## Van het CMS naar de website: wat zie je waar?
 
