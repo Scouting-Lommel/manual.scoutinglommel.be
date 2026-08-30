@@ -77,6 +77,12 @@ export default defineConfig({
 				},
 				{ tag: 'link', attrs: { rel: 'manifest', href: '/assets/head/site.webmanifest' } },
 				{ tag: 'meta', attrs: { name: 'theme-color', content: '#364d3f' } },
+				// Force the light theme only (the manual is a light-theme docs site;
+				// the dark theme's white headings would clash with the brand palette).
+				{
+					tag: 'script',
+					attrs: { type: 'module', src: '/theme-light.mjs' },
+				},
 			],
 		}),
 	],
