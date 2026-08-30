@@ -3,26 +3,30 @@ title: Overzicht inhoudstypen
 description: Alle soorten inhoud in het CMS — pagina's, takken, leiders, kalender en activiteiten, tarieven, handleidingen, verhuur, FAQ, media, navigatie en instellingen.
 ---
 
-In het CMS staat alle inhoud van de website. Elke soort inhoud noemen we een **soort inhoud**
-(in het Engels een _content type_): een vaste vorm waarin je gegevens invult. Er zijn twee
-soorten:
+In het CMS staat alle inhoud van de website. Elke soort inhoud heeft een vaste vorm waarin je gegevens invult. Er zijn twee soorten:
 
-- **Verzamelingen** (Engels: _collection types_) — lijsten van gelijkaardige items, zoals
-  alle takken of alle evenementen. Elk item is één losse vermelding.
-- **Losse pagina's** (Engels: _single types_) — één enkel item, zoals de homepage of de
-  instellingen. Daar is er maar één van.
+- **Verzamelingen** (_collection types_) — lijsten van gelijkaardige items, zoals alle takken of alle evenementen. Elk item is één losse vermelding.
+- **Losse pagina's** (_single types_) — één enkel item, zoals de homepage of de instellingen. Daar is er maar één van.
 
-Hieronder vind je de soorten inhoud die je in de praktijk gebruikt, gegroepeerd per onderwerp.
+Hieronder vind je een overzicht van de soorten inhoud die je in de praktijk gebruikt.
 
 ## Pagina's
 
-Elke pagina van de website is een aparte soort inhoud: "Pagina - Home", "Pagina - Algemene
-informatie", "Pagina - Contact", "Pagina - Inschrijven", "Pagina - Takken overzicht",
-"Pagina - Verhuur overzicht", "Pagina - Handleidingen overzicht", "Pagina - Privacy policy",
-"Pagina - Cookie policy", "Pagina - Drugs- en alcoholbeleid" en "Pagina - Artikels".
+Elke pagina van de website is een apart soort inhoud:
 
-Een pagina bouw je op met **blokken**: titels, teksten, foto's, kalenders, ... Hoe dat
-werkt, lees je in [04 · Een pagina bewerken](/04-pagina-bewerken/).
+- Pagina - Home
+- Pagina - Algemene informatie
+- Pagina - Contact
+- Pagina - Inschrijven
+- Pagina - Takken overzicht
+- Pagina - Verhuur overzicht
+- Pagina - Handleidingen overzicht
+- Pagina - Privacy policy
+- Pagina - Cookie policy
+- Pagina - Drugs- en alcoholbeleid
+- Pagina - Artikels
+
+Je bouwt een pagina op met **blokken**: titels, teksten, foto's, kalenders, ... Hoe dat werkt, lees je in [04 · Een pagina bewerken](/04-pagina-bewerken/).
 
 <figure>
   <img src="/captures/admin-homepage-edit.png" alt="De homepage bewerken in het CMS" />
@@ -31,17 +35,16 @@ werkt, lees je in [04 · Een pagina bewerken](/04-pagina-bewerken/).
 
 ## Takken
 
-De takken (kapoenen, welpen, jonggivers, ...) staan in de verzameling **"Takken"**. Elke tak
-heeft een naam, een beschrijving, een foto en een eigen pagina op de website.
+De takken (kapoenen, welpen, jonggivers, ...) staan in de verzameling **"Takken"**. Elke tak heeft een naam, een beschrijving, een foto en een eigen pagina op de website.
 
-De belangrijkste velden van een tak:
+Belangrijkste velden:
 
-- **Naam** → de titel van de tak en de naam in het menu.
-- **Ondertitel** → de korte tekst onder de naam op de takpagina.
-- **Beschrijving** → de lopende tekst over de tak.
-- **Logo / foto** → de afbeelding van de tak.
-- **Leiders** → de leiding van de tak (koppeling naar de verzameling "Leiders").
-- **Blokken** → de onderdelen van de takpagina (op dezelfde manier als bij een gewone pagina).
+- **Naam** → titel van de tak en naam in het menu.
+- **Ondertitel** → korte tekst onder de naam op de takpagina.
+- **Beschrijving** → lopende tekst over de tak.
+- **Logo / foto** → afbeelding van de tak.
+- **Leiders** → leiding van de tak (koppeling naar de verzameling "Leiders").
+- **Blokken** → onderdelen van de takpagina, op dezelfde manier als bij een gewone pagina.
 
 <figure>
   <img src="/captures/admin-groups-list.png" alt="De lijst van takken in het CMS" />
@@ -53,15 +56,14 @@ De belangrijkste velden van een tak:
   <figcaption>Eén tak bewerken: naam, beschrijving, foto en meer.</figcaption>
 </figure>
 
-Op de website zie je het resultaat op de pagina [scoutinglommel.be/takken](https://www.scoutinglommel.be/takken):
+Op de website zie je het resultaat op [scoutinglommel.be/takken](https://www.scoutinglommel.be/takken):
 
 <figure>
   <img src="/captures/site-takken.png" alt="De takkenpagina op de website" />
   <figcaption>De takkenpagina op de website, zoals bezoekers die zien.</figcaption>
 </figure>
 
-Elke tak heeft een eigen pagina, bijvoorbeeld
-[scoutinglommel.be/takken/kapoenen](https://www.scoutinglommel.be/takken/kapoenen):
+Elke tak heeft een eigen pagina, bijvoorbeeld [scoutinglommel.be/takken/kapoenen](https://www.scoutinglommel.be/takken/kapoenen):
 
 <figure>
   <img src="/captures/site-tak-slug.png" alt="De pagina van één tak op de website" />
@@ -70,35 +72,25 @@ Elke tak heeft een eigen pagina, bijvoorbeeld
 
 ## Leiders
 
-De leiders van elke tak staan in de verzameling **"Leiders"**. Elke leider is gekoppeld aan
-een tak en aan een takfunctie (bv. groepsleiding, takleiding, ...). De namen en functies van
-leiders zijn openbaar: ze verschijnen op de website bij de tak waartoe ze behoren.
+De leiders van elke tak staan in de verzameling **"Leiders"**. Elke leider is gekoppeld aan een tak en aan een takfunctie (bv. groepsleiding, takleiding). De namen en functies van leiders zijn openbaar: ze verschijnen op de website bij de tak waartoe ze behoren.
 
-> **Let op:** de verzameling **"Leden"** is iets anders. Daar staan persoonlijke gegevens
-> (e-mailadressen, telefoonnummers, adressen) die **nooit** op de website mogen verschijnen.
-> Zie [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).
+> **Let op:** de verzameling **"Leden"** is iets anders. Daar staan persoonlijke gegevens (e-mailadressen, telefoonnummers, adressen) die **nooit** op de website mogen verschijnen. Zie [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).
 
 ## Kalender & activiteiten
 
 - **"Evenementen"** — losse evenementen met datum, plaats en beschrijving.
-- **"Activiteiten"** — de activiteiten die op de website getoond worden (bv. op de
-  dashboardpagina van een tak).
+- **"Activiteiten"** — activiteiten die op de website getoond worden (bv. op de dashboardpagina van een tak).
 - **"Kalender"** — de kalenderweergave op een pagina.
 
-Deze gegevens verschijnen op de website zodra je ze publiceert (zie
-[06 · Publiceren & versheid](/06-publiceren-versheid/)).
+Deze gegevens verschijnen op de website zodra je ze publiceert (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
 
 ## Tarieven
 
-De verzameling **"Tarieven"** bevat de prijzen (bv. lidgeld, kamp, ...). Op een pagina kun
-je ze tonen met het blok "Tarieven" (zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
+De verzameling **"Tarieven"** bevat de prijzen (bv. lidgeld, kamp). Op een pagina toon je ze met het blok "Tarieven" (zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
 
 ## Handleidingen
 
-De verzameling **"Handleidingen"** bevat de handleidingen voor de **leiding** van de
-groep, te raadplegen op [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen)
-(bv. de oudergids of het huishoudelijk reglement). Dat zijn dus niet deze handleidingen —
-deze handleiding voor de groepsleiders staat op manual.scoutinglommel.be.
+De verzameling **"Handleidingen"** bevat de handleidingen voor de **leiding** van de groep, te raadplegen op [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen) (bv. de oudergids of het huishoudelijk reglement). Dat zijn dus niet deze handleidingen — deze handleiding voor de groepsleiders staat op manual.scoutinglommel.be.
 
 <figure>
   <img src="/captures/site-handleidingen.png" alt="De handleidingenpagina voor de leiding" />
@@ -107,8 +99,7 @@ deze handleiding voor de groepsleiders staat op manual.scoutinglommel.be.
 
 ## Verhuur
 
-De verzameling **"Verhuurlocaties"** bevat de locaties die de groep verhuurt (lokaal,
-materiaal, ...). Bezoekers vinden ze op [scoutinglommel.be/verhuur](https://www.scoutinglommel.be/verhuur).
+De verzameling **"Verhuurlocaties"** bevat de locaties die de groep verhuurt (lokaal, materiaal, ...). Bezoekers vinden ze op [scoutinglommel.be/verhuur](https://www.scoutinglommel.be/verhuur).
 
 <figure>
   <img src="/captures/site-verhuur.png" alt="De verhuurpagina op de website" />
@@ -117,13 +108,11 @@ materiaal, ...). Bezoekers vinden ze op [scoutinglommel.be/verhuur](https://www.
 
 ## Veelgestelde vragen (FAQ)
 
-De verzameling **"Veelgestelde vragen"** bevat vragen en antwoorden die je op een pagina
-kunt tonen met het blok "Veelgestelde vragen" (zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
+De verzameling **"Veelgestelde vragen"** bevat vragen en antwoorden die je op een pagina toont met het blok "Veelgestelde vragen" (zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
 
 ## Media
 
-De **"Media Library"** is de centrale plek voor alle foto's en bestanden. Van daaruit voeg
-je afbeeldingen toe aan pagina's. Zie [05 · Media](/05-media/).
+De **"Media Library"** is de centrale plek voor alle foto's en bestanden. Van daaruit voeg je afbeeldingen toe aan pagina's. Zie [05 · Media](/05-media/).
 
 <figure>
   <img src="/captures/admin-media-library.png" alt="De Media Library in het CMS" />
@@ -132,8 +121,7 @@ je afbeeldingen toe aan pagina's. Zie [05 · Media](/05-media/).
 
 ## Navigatie
 
-Het menu van de website (bovenaan en in de voettekst) beheer je via **"UI Navigation"**.
-Zie [07 · Navigatie](/07-navigatie/).
+Het menu van de website (bovenaan en in de voettekst) beheer je via **"UI Navigation"**. Zie [07 · Navigatie](/07-navigatie/).
 
 <figure>
   <img src="/captures/admin-navigation.png" alt="De navigatie beheren in het CMS" />
@@ -142,18 +130,13 @@ Zie [07 · Navigatie](/07-navigatie/).
 
 ## Instellingen
 
-Het losse type **"Algemeen"** bevat de algemene instellingen: het logo, de naam van de
-groep, het adres, de onderhoudspagina en de meldingsbalk. Zie
-[08 · Instellingen](/08-instellingen/).
+Het losse type **"Algemeen"** bevat de algemene instellingen: het logo, de naam van de groep, het adres, de onderhoudspagina en de meldingsbalk. Zie [08 · Instellingen](/08-instellingen/).
 
 <figure>
   <img src="/captures/admin-settings.png" alt="De algemene instellingen in het CMS" />
   <figcaption>De algemene instellingen: logo, onderhoudspagina en meldingsbalk.</figcaption>
 </figure>
 
-## Nog meer soorten inhoud
+## Soorten inhoud die je niet hoeft te bewerken
 
-Daarnaast bestaan er nog enkele soorten inhoud die je in de praktijk zelden of nooit hoeft te
-bewerken: "Artikels", "Audience", "Socials", "Takfuncties", "Jaarthema's" en "User". Laat
-die met rust tenzij je weet waarvoor ze dienen — zie ook
-[09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).
+Daarnaast bestaan er enkele soorten inhoud die je in de praktijk zelden of nooit hoeft te bewerken: "Artikels", "Audience", "Socials", "Takfuncties", "Jaarthema's" en "User". Laat die met rust tenzij je weet waarvoor ze dienen — zie ook [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).

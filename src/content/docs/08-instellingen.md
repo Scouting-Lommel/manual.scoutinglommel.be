@@ -3,8 +3,7 @@ title: Instellingen
 description: De algemene instellingen van de website — logo, onderhoudspagina (maintenanceMode) en de meldingsbalk (globalAlert).
 ---
 
-De algemene instellingen van de website staan in het losse type **"Algemeen"** (Engels:
-_General Data_). Je vindt ze in het Content Manager onder de losse types.
+De algemene instellingen van de website staan in het losse type **"Algemeen"** (Engels: _General Data_). Je vindt ze in het Content Manager onder de losse types.
 
 <figure>
   <img src="/captures/admin-settings.png" alt="De algemene instellingen in het CMS" />
@@ -21,20 +20,16 @@ _General Data_). Je vindt ze in het Content Manager onder de losse types.
 
 ## Onderhoudspagina (maintenanceMode)
 
-Met de schakelaar **"Onderhoudspagina"** zet je de hele website in onderhoudsmodus: bezoekers
-zien dan een onderhoudspagina in plaats van de website.
+Met de schakelaar **"Onderhoudspagina"** zet je de hele website in onderhoudsmodus: bezoekers zien dan een onderhoudspagina in plaats van de website.
 
 - **Aan** — de website toont een onderhoudspagina aan bezoekers.
 - **Uit** — de website is normaal bereikbaar.
 
-Gebruik dit alleen wanneer het echt nodig is (bv. tijdens een grote wijziging of een
-technisch probleem), en **vergeet niet om het weer uit te zetten**. Zie ook
-[10 · Troubleshooting](/10-troubleshooting/).
+> **Waarschuwing:** gebruik de onderhoudspagina alleen wanneer het echt nodig is (bv. tijdens een grote wijziging of een technisch probleem), en **vergeet niet om het weer uit te zetten**. Zie ook [10 · Troubleshooting](/10-troubleshooting/).
 
 ## Meldingsbalk (globalAlert)
 
-Met de meldingsbalk toon je een tijdelijke boodschap bovenaan elke pagina van de website,
-bv. "Inschrijvingen voor het kamp zijn geopend!" of "Het lokaal is gesloten op 1 mei."
+Met de meldingsbalk toon je een tijdelijke boodschap bovenaan elke pagina van de website, bv. "Inschrijvingen voor het kamp zijn geopend!" of "Het lokaal is gesloten op 1 mei."
 
 De meldingsbalk heeft drie velden:
 
@@ -42,11 +37,8 @@ De meldingsbalk heeft drie velden:
 - **Label** — de tekst van de boodschap.
 - **Variant** — de kleurstijl van de balk (bv. een opvallende of een neutrale kleur).
 
-Zet de meldingsbalk **uit** wanneer de boodschap niet meer geldt — anders blijft ze
-eeuwig bovenaan elke pagina staan.
+Zet de meldingsbalk **uit** wanneer de boodschap niet meer geldt — anders blijft ze eeuwig bovenaan elke pagina staan.
 
 ## Na een wijziging
 
-Ook instellingen zijn **onmiddellijk live** na het publiceren (zie
-[06 · Publiceren & versheid](/06-publiceren-versheid/)): herlaad de website en controleer
-het resultaat.
+Ook instellingen zijn **onmiddellijk live** na het publiceren (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)): herlaad de website en controleer het resultaat.

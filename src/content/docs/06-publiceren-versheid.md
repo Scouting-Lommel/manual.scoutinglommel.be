@@ -5,21 +5,20 @@ description: Wanneer is een wijziging zichtbaar op de website? Zodra je publicee
 
 ## Wanneer is mijn wijziging zichtbaar?
 
-Zodra je een wijziging **publiceert** in het CMS, is die **live** op de website. Een
-bezoeker die de pagina opent, ziet meteen de nieuwe inhoud.
+Zodra je een wijziging **publiceert** in het CMS, is die **live** op de website. Een bezoeker die de pagina opent, ziet meteen de nieuwe inhoud.
 
 Dat betekent voor jou:
 
 - Je hoeft **niets extra te doen** — publiceren volstaat.
 - Er is **geen knop** "verversen" of "cache leegmaken" die je moet indrukken.
-- Wat jij na het publiceren ziet, is wat de bezoeker ziet.
+- Wat je na het publiceren ziet, is wat de bezoeker ziet.
 
-## Hoe ga je te werk?
+## Hoe publiceer je?
 
 1. Bewerk de inhoud in het CMS.
 2. Klik op **Publiceren** (niet alleen Opslaan — zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
-3. Open de pagina op de website. Zie je je wijziging niet? Herlaad de pagina eens (toets F5
-   of Cmd+R) — dan verschijnt ze.
+3. Open de pagina op de website. Zie je je wijziging niet? Herlaad de pagina eens (toets **F5** of **Cmd+R**) — dan verschijnt ze.
 
-Zie je je wijziging ook na een herladen niet? Kijk dan bij
-[10 · Troubleshooting](/10-troubleshooting/).
+> **Tip:** soms toont je browser een oude versie van de pagina. Gebruik een **harde herlading** om de nieuwste versie op te halen: **Cmd + Shift + R** (Mac) of **Ctrl + Shift + R** (Windows).
+
+Zie je je wijziging ook na een herladen niet? Kijk dan bij [10 · Troubleshooting](/10-troubleshooting/).

@@ -15,6 +15,7 @@ dist/
 
 # operational (agent state, plans, evidence)
 .omo/
+.omc/
 
 # misc
 .DS_Store
