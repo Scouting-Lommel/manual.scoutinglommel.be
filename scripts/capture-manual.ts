@@ -682,20 +682,9 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
 		id: 'admin-settings',
 		url: `${adminBase()}/admin/content-manager/single-types/api::general-data.general-data`,
 		waitSelector: 'main form',
-		// The maintenance toggle lives far below the fold; highlight the
-		// first and most important field (website name) so the annotation is
-		// immediately readable in the viewport screenshot.
-		prepare: async (page) => {
-			await page.evaluate(() => {
-				const viewport = document.querySelector(
-					'[data-radix-scroll-area-viewport]'
-				);
-				(viewport ?? window).scrollTo(0, 0);
-			});
-			await page.waitForTimeout(300);
-		},
-		fullPage: false,
-		highlight: 'label:has-text("Websitenaam")',
+		// Highlight the "Algemeen" item in the left sidebar, not the form,
+		// because the manual uses this screenshot to show where settings live.
+		highlight: 'a:has-text("Algemeen")',
 		label: 'Instellingen: algemene gegevens',
 		callout: 'right',
 	},
