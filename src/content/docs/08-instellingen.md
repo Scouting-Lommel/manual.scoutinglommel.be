@@ -6,7 +6,7 @@ description: De algemene instellingen van de website — logo, onderhoudspagina 
 # Instellingen
 
 De algemene instellingen van de website staan in het losse type **"Algemeen"** (Engels:
-*General Data*). Je vindt ze in het Content Manager onder de losse types.
+_General Data_). Je vindt ze in het Content Manager onder de losse types.
 
 <figure>
   <img src="/captures/admin-settings.png" alt="De algemene instellingen in het CMS" />
@@ -18,8 +18,8 @@ De algemene instellingen van de website staan in het losse type **"Algemeen"** (
 - **Logo** — het logo van Scouting Lommel dat bovenaan de website staat.
 - **Naam van de groep** — de naam die op de website getoond wordt.
 - **Adres** — het adres van de groep (bv. in de voettekst).
-- **Onderhoudspagina** (*maintenanceMode*) — zie hieronder.
-- **Meldingsbalk** (*globalAlert*) — zie hieronder.
+- **Onderhoudspagina** (_maintenanceMode_) — zie hieronder.
+- **Meldingsbalk** (_globalAlert_) — zie hieronder.
 
 ## Onderhoudspagina (maintenanceMode)
 
@@ -40,7 +40,7 @@ bv. "Inschrijvingen voor het kamp zijn geopend!" of "Het lokaal is gesloten op 1
 
 De meldingsbalk heeft drie velden:
 
-- **Ingeschakeld** (*enabled*) — aan of uit.
+- **Ingeschakeld** (_enabled_) — aan of uit.
 - **Label** — de tekst van de boodschap.
 - **Variant** — de kleurstijl van de balk (bv. een opvallende of een neutrale kleur).
 

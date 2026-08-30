@@ -18,13 +18,13 @@ Run via `npx tsx`:
 npx tsx scripts/capture-manual.ts <mode> [--check-readonly]
 ```
 
-| Mode | What it does | Credentials needed |
-| --- | --- | --- |
-| `--admin` | Captures annotated screenshots of the Strapi admin (login, content manager, page edit, media library, settings, navigation) | `STRAPI_ADMIN_EMAIL` + `STRAPI_ADMIN_PASSWORD` |
-| `--frontend` | Captures annotated screenshots of the public site (home, takken, wie-is-wie, handleidingen, verhuur, contact, inschrijven) | none |
-| `--all` | Both of the above | admin credentials |
-| `--help` | Prints usage and exits 0 | none |
-| `--check-readonly` | Flag combined with a mode: reads `homePage.updatedAt` via the public GraphQL endpoint before and after capture and asserts it is unchanged — proof the script never mutates the CMS | `NEXT_PUBLIC_APP_BACKEND_URL` |
+| Mode               | What it does                                                                                                                                                                        | Credentials needed                             |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| `--admin`          | Captures annotated screenshots of the Strapi admin (login, content manager, page edit, media library, settings, navigation)                                                         | `STRAPI_ADMIN_EMAIL` + `STRAPI_ADMIN_PASSWORD` |
+| `--frontend`       | Captures annotated screenshots of the public site (home, takken, wie-is-wie, handleidingen, verhuur, contact, inschrijven)                                                          | none                                           |
+| `--all`            | Both of the above                                                                                                                                                                   | admin credentials                              |
+| `--help`           | Prints usage and exits 0                                                                                                                                                            | none                                           |
+| `--check-readonly` | Flag combined with a mode: reads `homePage.updatedAt` via the public GraphQL endpoint before and after capture and asserts it is unchanged — proof the script never mutates the CMS | `NEXT_PUBLIC_APP_BACKEND_URL`                  |
 
 The script is strictly read-only: its interaction allowlist only permits navigate, hover, and type-without-submit. It never clicks Save/Publish/Delete/Create/Upload, and it never captures the Member collection (PII).
 

@@ -55,13 +55,26 @@ export default defineConfig({
 				{ tag: 'link', attrs: { rel: 'icon', href: '/favicon.ico', sizes: 'any' } },
 				{
 					tag: 'link',
-					attrs: { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/head/favicon-16x16.png' },
+					attrs: {
+						rel: 'icon',
+						type: 'image/png',
+						sizes: '16x16',
+						href: '/assets/head/favicon-16x16.png',
+					},
 				},
 				{
 					tag: 'link',
-					attrs: { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/head/favicon-32x32.png' },
+					attrs: {
+						rel: 'icon',
+						type: 'image/png',
+						sizes: '32x32',
+						href: '/assets/head/favicon-32x32.png',
+					},
 				},
-				{ tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/assets/head/apple-touch-icon.png' } },
+				{
+					tag: 'link',
+					attrs: { rel: 'apple-touch-icon', href: '/assets/head/apple-touch-icon.png' },
+				},
 				{ tag: 'link', attrs: { rel: 'manifest', href: '/assets/head/site.webmanifest' } },
 				{ tag: 'meta', attrs: { name: 'theme-color', content: '#364d3f' } },
 			],

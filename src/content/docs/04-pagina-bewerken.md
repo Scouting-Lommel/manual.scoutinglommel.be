@@ -13,7 +13,7 @@ automatisch om in een mooie pagina.
 ## De plek waar je blokken toevoegt
 
 In het CMS vind je de blokken in het **blokken-gebied** van een pagina (in het Engels heet
-dat de *dynamic zone*): een lijst waarin je blokken toevoegt, verwijdert en in volgorde
+dat de _dynamic zone_): een lijst waarin je blokken toevoegt, verwijdert en in volgorde
 sleept. Het is gewoon de plek waar je blokken toevoegt.
 
 <figure>
@@ -36,23 +36,23 @@ Zo werkt het:
 Dit zijn de blokken die de website ondersteunt. In de rechterkolom zie je wat bezoekers op
 de website te zien krijgen:
 
-| Blok | Wat doet het? | Op de website zie je dit als... |
-| --- | --- | --- |
-| **Hero** | De grote titelbalk bovenaan een pagina, vaak met een foto of kleurvlak en een korte onderschrift. | De grote banner bovenaan de pagina. |
-| **Tekst & afbeelding** | Een tekstblok met een afbeelding ernaast. Het werkpaard voor de meeste pagina-inhoud. | Een sectie met tekst en een foto naast elkaar. |
-| **Takken** | Toont de takken van de groep (bv. op de takkenpagina). | De lijst met takken (kapoenen, welpen, ...). |
-| **Evenementen** | Toont een lijst van evenementen. | De lijst met aankomende evenementen. |
-| **Galerij** | Een fotogalerij met meerdere afbeeldingen. | Een reeks foto's die je kan doorbladeren. |
-| **Beleid** | Toont een beleidstekst (bv. privacybeleid, drugs- en alcoholbeleid). | Een blok met de beleidstekst. |
-| **Leiders** | Toont de leiders van een tak met hun functie. | De namen en functies van de leiding. |
-| **Tarieven** | Toont een overzicht van prijzen en tarieven. | De prijstabel (bv. lidgeld, kamp). |
-| **Bestanden** | Toont downloadbare bestanden (bv. inschrijvingsformulieren). | De lijst met bestanden die je kan downloaden. |
-| **Veelgestelde vragen** | Toont een lijst van vragen die bezoekers kunnen openklappen. | De uitklapbare vragen en antwoorden. |
-| **Kaart** | Toont een kaart, bv. met de locatie van het lokaal. | De kaart met het lokaal. |
-| **Activiteiten** | Toont een lijst van activiteiten. | De lijst met activiteiten. |
-| **Kalender** | Toont een kalenderweergave. | De kalender op de pagina. |
-| **Jaarthema** | Toont het jaarthema van de groep. | De tekst of afbeelding van het jaarthema. |
-| **Scheidingslijn** | Een dunne lijn die blokken visueel van elkaar scheidt. | Een dunne lijn tussen twee secties. |
+| Blok                    | Wat doet het?                                                                                     | Op de website zie je dit als...                |
+| ----------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **Hero**                | De grote titelbalk bovenaan een pagina, vaak met een foto of kleurvlak en een korte onderschrift. | De grote banner bovenaan de pagina.            |
+| **Tekst & afbeelding**  | Een tekstblok met een afbeelding ernaast. Het werkpaard voor de meeste pagina-inhoud.             | Een sectie met tekst en een foto naast elkaar. |
+| **Takken**              | Toont de takken van de groep (bv. op de takkenpagina).                                            | De lijst met takken (kapoenen, welpen, ...).   |
+| **Evenementen**         | Toont een lijst van evenementen.                                                                  | De lijst met aankomende evenementen.           |
+| **Galerij**             | Een fotogalerij met meerdere afbeeldingen.                                                        | Een reeks foto's die je kan doorbladeren.      |
+| **Beleid**              | Toont een beleidstekst (bv. privacybeleid, drugs- en alcoholbeleid).                              | Een blok met de beleidstekst.                  |
+| **Leiders**             | Toont de leiders van een tak met hun functie.                                                     | De namen en functies van de leiding.           |
+| **Tarieven**            | Toont een overzicht van prijzen en tarieven.                                                      | De prijstabel (bv. lidgeld, kamp).             |
+| **Bestanden**           | Toont downloadbare bestanden (bv. inschrijvingsformulieren).                                      | De lijst met bestanden die je kan downloaden.  |
+| **Veelgestelde vragen** | Toont een lijst van vragen die bezoekers kunnen openklappen.                                      | De uitklapbare vragen en antwoorden.           |
+| **Kaart**               | Toont een kaart, bv. met de locatie van het lokaal.                                               | De kaart met het lokaal.                       |
+| **Activiteiten**        | Toont een lijst van activiteiten.                                                                 | De lijst met activiteiten.                     |
+| **Kalender**            | Toont een kalenderweergave.                                                                       | De kalender op de pagina.                      |
+| **Jaarthema**           | Toont het jaarthema van de groep.                                                                 | De tekst of afbeelding van het jaarthema.      |
+| **Scheidingslijn**      | Een dunne lijn die blokken visueel van elkaar scheidt.                                            | Een dunne lijn tussen twee secties.            |
 
 > **Let op:** er bestaat ook een blok **"Artikels"** in het CMS, maar dat blok wordt **niet
 > ondersteund** door de website: het verschijnt niet op de pagina. Gebruik het dus niet. Zie
@@ -111,9 +111,9 @@ items in, en de website toont ze als één sectie op de pagina.
 
 In het CMS zijn er twee knoppen die op elkaar lijken:
 
-- **Opslaan** (Engels: *Save*) — bewaart je wijzigingen als **concept**. Het concept is
+- **Opslaan** (Engels: _Save_) — bewaart je wijzigingen als **concept**. Het concept is
   nog niet zichtbaar op de website.
-- **Publiceren** (Engels: *Publish*) — maakt je wijzigingen **live**. Pas dan ziet de
+- **Publiceren** (Engels: _Publish_) — maakt je wijzigingen **live**. Pas dan ziet de
   bezoeker ze op de website.
 
 De status van een item zie je bovenaan: **"Draft"** (concept) of **"Published"**

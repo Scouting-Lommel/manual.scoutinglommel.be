@@ -1,6 +1,6 @@
 ---
 title: Inleiding — hoe hangt het CMS samen met de website?
-description: "Een eenvoudige uitleg van de weg die je inhoud aflegt: van het CMS naar de website en uiteindelijk naar de bezoeker."
+description: 'Een eenvoudige uitleg van de weg die je inhoud aflegt: van het CMS naar de website en uiteindelijk naar de bezoeker.'
 ---
 
 # Inleiding — hoe hangt het CMS samen met de website?

@@ -37,7 +37,7 @@ aan de ontwikkelaars (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/))
 ## Bezoekers zien een onderhoudspagina
 
 De website staat in onderhoudsmodus. Dat gebeurt via de schakelaar **"Onderhoudspagina"**
-(*maintenanceMode*) in de instellingen (zie [08 · Instellingen](/08-instellingen/)).
+(_maintenanceMode_) in de instellingen (zie [08 · Instellingen](/08-instellingen/)).
 
 1. Log in op het CMS en open **"Algemeen"** in het Content Manager.
 2. Zet de schakelaar **"Onderhoudspagina"** op **uit**.

@@ -10,7 +10,7 @@ gebruiken. Dit zijn de drie belangrijkste dingen die je beter niet doet.
 
 ## 1. Gebruik het blok "Artikels" niet
 
-In het CMS bestaat een blok **"Artikels"** (Engels: *ArticlesBlock*). Dat blok wordt
+In het CMS bestaat een blok **"Artikels"** (Engels: _ArticlesBlock_). Dat blok wordt
 **niet ondersteund** door de website: de code van de website kent het blok niet, dus het
 verschijnt **nooit** op de pagina.
 
