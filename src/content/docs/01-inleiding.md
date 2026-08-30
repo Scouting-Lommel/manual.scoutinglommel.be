@@ -29,7 +29,7 @@ Het onderstaande schema toont hoe het in elkaar zit:
 
 In gewone woorden:
 
-- **Het CMS** — jij typt een tekst, voegt een foto toe of past een prijs aan. Dit is de
+- **Het CMS** (= Content Management System) — jij typt een tekst, voegt een foto toe of past een prijs aan. Dit is de
   enige plek waar jij iets wijzigt.
 - **De website** — toont automatisch wat jij in het CMS hebt gezet. Je hoeft niets
   technisch te doen: geen verbindingen, geen knoppen, geen extra stappen.

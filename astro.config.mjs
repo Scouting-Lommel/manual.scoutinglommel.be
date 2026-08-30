@@ -45,6 +45,10 @@ export default defineConfig({
 			],
 			customCss: ['./src/styles/custom.css'],
 			favicon: '/favicon.ico',
+			components: {
+				// Light-theme only: drop the dark/light theme toggle entirely.
+				ThemeSelect: './src/components/ThemeSelect.astro',
+			},
 			head: [
 				// Editor docs: public URL, but excluded from search engines.
 				{

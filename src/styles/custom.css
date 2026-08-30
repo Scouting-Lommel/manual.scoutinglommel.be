@@ -74,10 +74,19 @@
 	/* Fonts: Montserrat headings, Nunito Sans body */
 	--sl-font: 'Nunito Sans', system-ui, -apple-system, sans-serif;
 	--sl-font-headings: 'Montserrat', 'Nunito Sans', system-ui, sans-serif;
+
+	/* Starlight's design is dark-first: its base theme defines
+	   --sl-color-white:#fff (text) and --sl-color-black:#17181c (bg), and the
+	   light theme swaps them. Many rules hard-code var(--sl-color-white) /
+	   var(--sl-color-black) (headings, summaries, search dialog, sidebar,
+	   buttons). Pin both to light-theme semantics for every data-theme so
+	   none of those rules can ever render white-on-light. */
+	--sl-color-white: #17181c;
+	--sl-color-black: #ffffff;
 }
 
 /* Annotated screenshots: full-width, bordered, captions. */
-.content img[src^='/captures/'] {
+.sl-markdown-content img[src^='/captures/'] {
 	width: 100%;
 	height: auto;
 	border: 1px solid var(--sl-color-gray-5);
@@ -87,11 +96,11 @@
 		0 8px 24px rgb(13 13 13 / 12%);
 }
 
-.content figure {
+.sl-markdown-content figure {
 	margin: 1.5rem 0;
 }
 
-.content figure img {
+.sl-markdown-content figure img {
 	box-shadow:
 		0 2px 8px rgb(13 13 13 / 10%),
 		0 8px 24px rgb(13 13 13 / 12%);
@@ -129,4 +138,15 @@ h5,
 h6,
 .sl-markdown-content :is(h1, h2, h3, h4, h5, h6) {
 	color: var(--sl-color-text);
+}
+
+/* Pagefind search dialog: force the light brand theme. Starlight wires
+   --pagefind-ui-* to its color vars; pin them explicitly (unlayered, so it
+   wins over the layered #starlight__search block). */
+#starlight__search {
+	--pagefind-ui-primary: var(--sl-color-text);
+	--pagefind-ui-text: var(--sl-color-gray-2);
+	--pagefind-ui-background: #ffffff;
+	--pagefind-ui-border: var(--sl-color-gray-5);
+	--pagefind-ui-tag: var(--sl-color-gray-6);
 }
