@@ -533,6 +533,13 @@ interface ScreenshotDefinition {
 	callout?: CalloutPosition;
 	/** Resolves a dynamic URL (e.g. first group edit view, first tak slug). */
 	resolve?: (page: Page) => Promise<string>;
+	/** Optional pre-screenshot setup: scroll, expand sections, etc. Runs after
+	 *  the page has settled but before popups are dismissed and the annotation
+	 *  overlay is injected. Must stay within the read-only allowlist. */
+	prepare?: (page: Page) => Promise<void>;
+	/** When false, the screenshot is a viewport capture instead of a full-page
+	 *  capture. Useful for SPAs that scroll inside a container (e.g. Strapi admin). */
+	fullPage?: boolean;
 	/** When true, a page that never renders its wait selector is skipped with a
 	 *  warning instead of failing the run (used for screenshots blocked by a
 	 *  production outage — never for admin screens). */
@@ -627,11 +634,14 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
 		id: 'admin-page-edit',
 		url: `${adminBase()}/admin/content-manager/single-types/api::info-page.info-page`,
 		waitSelector: 'main form',
-		// The dynamic zone renders without a testid; its "add component" button
-		// is the stable anchor for the annotation.
-		highlight: 'button:has-text("Add a component to Blocks")',
+		prepare: async (page) => {
+			await page.locator('text=Blocks (5)').scrollIntoViewIfNeeded();
+			await page.waitForTimeout(300);
+		},
+		highlight: 'text=Blocks (5)',
 		label: 'Dynamische zone: voeg blokken toe',
 		callout: 'right',
+		fullPage: false,
 	},
 	{
 		id: 'admin-homepage-edit',
@@ -672,10 +682,20 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
 		id: 'admin-settings',
 		url: `${adminBase()}/admin/content-manager/single-types/api::general-data.general-data`,
 		waitSelector: 'main form',
-		// GeneralData edit form is English chrome — the maintenance toggle's
-		// label is "Maintenance mode" (Dutch content labels only apply to
-		// content types, not field labels). Match both to be robust.
-		highlight: 'label:has-text("Maintenance mode"), label:has-text("Onderhoudsmodus")',
+		// The maintenance toggle lives far below the fold; highlight the
+		// first and most important field (website name) so the annotation is
+		// immediately readable in the viewport screenshot.
+		prepare: async (page) => {
+			await page.evaluate(() => {
+				const viewport = document.querySelector(
+					'[data-radix-scroll-area-viewport]'
+				);
+				(viewport ?? window).scrollTo(0, 0);
+			});
+			await page.waitForTimeout(300);
+		},
+		fullPage: false,
+		highlight: 'label:has-text("Websitenaam")',
 		label: 'Instellingen: algemene gegevens',
 		callout: 'right',
 	},
@@ -684,7 +704,8 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
 		url: `${adminBase()}/admin/plugins/navigation`,
 		waitSelector: 'main',
 		waitFallbacks: [SELECTORS.admin.sidebarNav],
-		highlight: 'main h1',
+		// Highlight an actual navigation item (Home), not the page title.
+		highlight: 'main article:first-of-type',
 		label: 'Navigatie beheren',
 		callout: 'right',
 	},
@@ -879,6 +900,9 @@ async function captureDefinition(
 	}
 
 	await waitForContentSettled(page);
+	if (def.prepare) {
+		await def.prepare(page);
+	}
 	const { dismissed, dialogsAtShot } = await dismissPopups(page);
 	console.log(
 		`[capture] ${def.id}: popups-dismissed=${dismissed} dialogs-at-shot=${dialogsAtShot}`,
@@ -893,7 +917,7 @@ async function captureDefinition(
 	}
 
 	const outPath = path.join(OUTPUT_DIR, `${def.id}.png`);
-	await page.screenshot({ path: outPath, fullPage: true });
+	await page.screenshot({ path: outPath, fullPage: def.fullPage ?? true });
 	const bytes = statSync(outPath).size;
 	manifest.push({ id: def.id, path: outPath, bytes });
 	console.log(`[capture] ${def.id}: ${bytes} bytes`);
