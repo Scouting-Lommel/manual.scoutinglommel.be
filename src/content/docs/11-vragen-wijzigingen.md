@@ -3,12 +3,12 @@ title: Vragen & wijzigingen
 description: Hoe deze handleiding wordt bijgewerkt en waar je terechtkan met vragen over het CMS of de website.
 ---
 
-## Deze handleiding is voor redacteurs
+## Deze handleiding is voor groepsleiders
 
 > **Dit is de handleiding voor het CMS achter de schermen.** De handleidingen op
 > [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen) zijn voor
-> bezoekers — die gaan over de werking van de groep (bv. de oudergids). Deze handleiding
-> gaat over het beheren van de website zelf en is bedoeld voor de redacteurs.
+> de **leiding** van de groep (bv. de oudergids). Deze handleiding gaat over het beheren
+> van de website zelf en is bedoeld voor de groepsleiders.
 
 ## Hoe wordt deze handleiding bijgewerkt?
 
@@ -30,7 +30,7 @@ Dat betekent ook:
 - **Vragen over het CMS of de website** (een blok dat niet werkt, een instelling die je niet
   vindt, een probleem bij het inloggen): contacteer de ontwikkelaars van de website.
 - **Vragen over de inhoud** (welke tekst hoort waar, wie beslist over de inhoud van een
-  pagina): bespreek die met de verantwoordelijke redacteur of de groepsleiding.
+  pagina): bespreek die met een andere groepsleider of met de groepsleiding.
 - **Ideeën voor de website** (een nieuwe pagina, een nieuwe functie): ook die komen bij de
   ontwikkelaars terecht. Zij bekijken wat mogelijk is en plannen het in.
 

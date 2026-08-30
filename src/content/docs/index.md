@@ -1,12 +1,11 @@
 ---
 title: CMS-handleiding Scouting Lommel
-description: Handleiding voor de redacteurs van de Scouting Lommel website — hoe het CMS werkt, hoe je pagina's bewerkt en waar je op moet letten.
+description: Handleiding voor de groepsleiders van Scouting Lommel — hoe het CMS werkt, hoe je pagina's bewerkt en waar je op moet letten.
 ---
 
 Welkom bij de handleiding voor de **CMS** (het Content Management Systeem) achter
-[scoutinglommel.be](https://www.scoutinglommel.be). Deze handleiding is geschreven voor de
-vrijwilligers die de website beheren: je hebt geen technische kennis nodig, alleen een account
-om in te loggen.
+[scoutinglommel.be](https://www.scoutinglommel.be). Deze handleiding is geschreven voor de **groepsleiders** die de website beheren: je hebt
+een account om in te loggen, en verder geen technische kennis nodig.
 
 ## Wat vind je waar?
 
@@ -31,5 +30,6 @@ om in te loggen.
 - Wijzigingen zijn **onmiddellijk live** bij de volgende paginalading (zie
   [06 · Publiceren & versheid](/06-publiceren-versheid/)).
 - Deze handleiding is **niet** de website zelf: de handleidingen op
-  [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen) zijn voor
-  bezoekers, deze handleiding is voor de redacteurs achter de schermen.
+  [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen) zijn voor de
+  **leiding** van de groep (bv. de oudergids) — deze handleiding is voor de groepsleiders
+  die het CMS beheren.

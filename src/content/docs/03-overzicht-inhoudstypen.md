@@ -95,14 +95,14 @@ je ze tonen met het blok "Tarieven" (zie [04 · Een pagina bewerken](/04-pagina-
 
 ## Handleidingen
 
-De verzameling **"Handleidingen"** bevat de handleidingen die **bezoekers** kunnen
-raadplegen op [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen)
+De verzameling **"Handleidingen"** bevat de handleidingen voor de **leiding** van de
+groep, te raadplegen op [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen)
 (bv. de oudergids of het huishoudelijk reglement). Dat zijn dus niet deze handleidingen —
-deze handleiding voor redacteurs staat op manual.scoutinglommel.be.
+deze handleiding voor de groepsleiders staat op manual.scoutinglommel.be.
 
 <figure>
-  <img src="/captures/site-handleidingen.png" alt="De handleidingenpagina voor bezoekers" />
-  <figcaption>De handleidingenpagina voor bezoekers op scoutinglommel.be/handleidingen.</figcaption>
+  <img src="/captures/site-handleidingen.png" alt="De handleidingenpagina voor de leiding" />
+  <figcaption>De handleidingenpagina voor de leiding op scoutinglommel.be/handleidingen.</figcaption>
 </figure>
 
 ## Verhuur

@@ -45,7 +45,7 @@ Een paar dingen die opvallen:
 
 ## Praktische tips
 
-- Deel je account niet met anderen: elke redacteur heeft best een eigen account, zodat je
+- Deel je account niet met anderen: elke groepsleider heeft best een eigen account, zodat je
   altijd weet wie welke wijziging deed.
 - Log uit wanneer je klaar bent op een gedeelde computer.
 - Geen 2-stapsverificatie? Vraag de ontwikkelaars als je die wil inschakelen voor je account.
