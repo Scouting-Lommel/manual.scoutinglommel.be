@@ -3,8 +3,6 @@ title: Media
 description: Foto's en bestanden toevoegen via de Media Library — uploaden, beheren en gebruiken op pagina's.
 ---
 
-# Media
-
 Alle foto's en bestanden van de website staan in de **Media Library**. Van daaruit voeg je
 afbeeldingen toe aan pagina's, takken, evenementen en andere inhoud.
 

@@ -3,8 +3,6 @@ title: Inloggen
 description: Waar je inlogt op het CMS, hoe je account werkt en wat je wel en niet te zien krijgt.
 ---
 
-# Inloggen
-
 ## Waar log je in?
 
 Het CMS heeft een eigen adres, apart van de website:

@@ -3,8 +3,6 @@ title: Troubleshooting
 description: Problemen oplossen — een wijziging die niet zichtbaar is, een ontbrekende afbeelding of een onderhoudspagina.
 ---
 
-# Troubleshooting
-
 Loopt er iets mis? De meeste problemen hebben een eenvoudige oplossing. Doorloop de stappen
 hieronder in volgorde.
 

@@ -3,8 +3,6 @@ title: CMS-handleiding Scouting Lommel
 description: Handleiding voor de redacteurs van de Scouting Lommel website — hoe het CMS werkt, hoe je pagina's bewerkt en waar je op moet letten.
 ---
 
-# CMS-handleiding Scouting Lommel
-
 Welkom bij de handleiding voor de **CMS** (het Content Management Systeem) achter
 [scoutinglommel.be](https://www.scoutinglommel.be). Deze handleiding is geschreven voor de
 vrijwilligers die de website beheren: je hebt geen technische kennis nodig, alleen een account

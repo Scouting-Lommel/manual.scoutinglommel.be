@@ -3,8 +3,6 @@ title: Wat je beter niet doet
 description: Dingen die je moet vermijden in het CMS — het Artikels-blok, ledengegevens en rechtstreekse wijzigingen aan de code.
 ---
 
-# Wat je beter niet doet
-
 Het CMS is gemaakt om de website te beheren, maar niet alles wat erin staat is bedoeld om te
 gebruiken. Dit zijn de drie belangrijkste dingen die je beter niet doet.
 

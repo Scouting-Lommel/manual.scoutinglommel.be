@@ -3,8 +3,6 @@ title: Instellingen
 description: De algemene instellingen van de website — logo, onderhoudspagina (maintenanceMode) en de meldingsbalk (globalAlert).
 ---
 
-# Instellingen
-
 De algemene instellingen van de website staan in het losse type **"Algemeen"** (Engels:
 _General Data_). Je vindt ze in het Content Manager onder de losse types.
 

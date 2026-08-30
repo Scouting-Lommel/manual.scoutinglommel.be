@@ -3,8 +3,6 @@ title: Een pagina bewerken
 description: Hoe je een pagina opbouwt met blokken — de plek waar je blokken toevoegt, alle bloktypes en het verschil tussen opslaan en publiceren.
 ---
 
-# Een pagina bewerken
-
 Elke pagina van de website is opgebouwd uit **blokken**. Een blok is één onderdeel van een
 pagina: een titelbalk, een tekst met foto, een kalender, een lijst van veelgestelde vragen,
 ... Je schuift de blokken in de juiste volgorde en vult ze in. De website zet ze dan

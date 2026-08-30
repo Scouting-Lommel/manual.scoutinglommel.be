@@ -3,8 +3,6 @@ title: Vragen & wijzigingen
 description: Hoe deze handleiding wordt bijgewerkt en waar je terechtkan met vragen over het CMS of de website.
 ---
 
-# Vragen & wijzigingen
-
 ## Deze handleiding is voor redacteurs
 
 > **Dit is de handleiding voor het CMS achter de schermen.** De handleidingen op

@@ -3,8 +3,6 @@ title: Navigatie
 description: Het menu van de website aanpassen — de hoofd- en voetnavigatie via de UI Navigation-plugin in het CMS.
 ---
 
-# Navigatie
-
 Het menu van de website — zowel het hoofdmenu bovenaan als de links in de voettekst — beheer
 je in het CMS via de **"UI Navigation"**-plugin. Je vindt ze in de zijkolom van het CMS.
 

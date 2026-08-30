@@ -3,8 +3,6 @@ title: Overzicht inhoudstypen
 description: Alle soorten inhoud in het CMS — pagina's, takken, leiders, kalender en activiteiten, tarieven, handleidingen, verhuur, FAQ, media, navigatie en instellingen.
 ---
 
-# Overzicht inhoudstypen
-
 In het CMS staat alle inhoud van de website. Elke soort inhoud noemen we een **soort inhoud**
 (in het Engels een _content type_): een vaste vorm waarin je gegevens invult. Er zijn twee
 soorten:

@@ -3,8 +3,6 @@ title: Publiceren & versheid
 description: Wanneer is een wijziging zichtbaar op de website? Zodra je publiceert, is je wijziging live.
 ---
 
-# Publiceren & versheid
-
 ## Wanneer is mijn wijziging zichtbaar?
 
 Zodra je een wijziging **publiceert** in het CMS, is die **live** op de website. Een
