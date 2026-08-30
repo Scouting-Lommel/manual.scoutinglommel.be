@@ -44,12 +44,26 @@ export default defineConfig({
 				},
 			],
 			customCss: ['./src/styles/custom.css'],
+			favicon: '/favicon.ico',
 			head: [
 				// Editor docs: public URL, but excluded from search engines.
 				{
 					tag: 'meta',
 					attrs: { name: 'robots', content: 'noindex, nofollow' },
 				},
+				// Scouting Lommel favicon pack (from the site repo).
+				{ tag: 'link', attrs: { rel: 'icon', href: '/favicon.ico', sizes: 'any' } },
+				{
+					tag: 'link',
+					attrs: { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/head/favicon-16x16.png' },
+				},
+				{
+					tag: 'link',
+					attrs: { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/head/favicon-32x32.png' },
+				},
+				{ tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/assets/head/apple-touch-icon.png' } },
+				{ tag: 'link', attrs: { rel: 'manifest', href: '/assets/head/site.webmanifest' } },
+				{ tag: 'meta', attrs: { name: 'theme-color', content: '#364d3f' } },
 			],
 		}),
 	],

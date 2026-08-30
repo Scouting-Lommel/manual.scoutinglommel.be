@@ -1,7 +1,82 @@
-/* CMS-handleiding Scouting Lommel — minimal theme tweaks.
-   Annotated screenshots (public/captures/*.png) render full-width
-   with a border; captions via <figure>/<figcaption>. */
+/* CMS-handleiding Scouting Lommel — brand theme (light only for now).
+   Colors pinned from the site repo's src/assets/styles/settings/colors.pcss:
+   primary (dark green) #364d3f/#4d6e5a/#829a8c/#cad4ce/#edf1ef,
+   secondary (gold) #edb942/#f6dca1/#fdf8ec, neutrals #0d0d0d/#5a5a5a/#f9f9f9.
+   Fonts: Montserrat (headings) + Nunito Sans (body) — same as scoutinglommel.be. */
 
+@import '@fontsource/montserrat/600.css';
+@import '@fontsource/montserrat/700.css';
+@import '@fontsource/nunito-sans/400.css';
+@import '@fontsource/nunito-sans/600.css';
+@import '@fontsource/nunito-sans/700.css';
+
+:root,
+[data-theme='light'],
+[data-theme='dark'] {
+	/* Brand accent: gold */
+	--sl-color-accent: #a6822e;
+	--sl-color-accent-high: #5f4a1a;
+	--sl-color-accent-low: #faeac6;
+	--sl-color-text-accent: #a6822e;
+
+	/* Backgrounds: white + brand tints */
+	--sl-color-bg: #ffffff;
+	--sl-color-bg-nav: #fdf8ec;
+	--sl-color-bg-sidebar: #fdf8ec;
+	--sl-color-bg-accent: #fdf8ec;
+	--sl-color-bg-badge: #faeac6;
+	--sl-color-bg-inline-code: #edf1ef;
+
+	/* Text: neutral dark on white */
+	--sl-color-text: #0d0d0d;
+	--sl-color-text-invert: #ffffff;
+	--sl-color-gray-1: #0d0d0d;
+	--sl-color-gray-2: #343434;
+	--sl-color-gray-3: #5a5a5a;
+	--sl-color-gray-4: #818181;
+	--sl-color-gray-5: #a6b7ad;
+	--sl-color-gray-6: #cad4ce;
+	--sl-color-gray-7: #edf1ef;
+	--sl-color-gray-8: #f2f2f2;
+	--sl-color-gray-9: #f9f9f9;
+
+	/* Hairlines / borders: primary tints */
+	--sl-color-hairline: #cad4ce;
+	--sl-color-hairline-light: #edf1ef;
+	--sl-color-hairline-shade: #a6b7ad;
+	--sl-color-border-badge: #f6dca1;
+
+	/* Asides: gold-tinted background, dark-green accent text */
+	--sl-color-asides-text-accent: #364d3f;
+	--sl-color-asides-border: #f6dca1;
+
+	/* Banner (theme color behind the site title bar) */
+	--sl-color-banner-bg: #364d3f;
+	--sl-color-banner-text: #ffffff;
+
+	/* Semantic colors (keep brand-compatible) */
+	--sl-color-blue: #3f96fd;
+	--sl-color-blue-high: #1a5fa8;
+	--sl-color-blue-low: #e3f0fe;
+	--sl-color-green: #41cc4f;
+	--sl-color-green-high: #1a7a24;
+	--sl-color-green-low: #e1f7e4;
+	--sl-color-orange: #f59e0b;
+	--sl-color-orange-high: #a16207;
+	--sl-color-orange-low: #fdf0dc;
+	--sl-color-red: #ff4343;
+	--sl-color-red-high: #c22;
+	--sl-color-red-low: #ffe3e3;
+	--sl-color-purple: #8b5cf6;
+	--sl-color-purple-high: #5b21b6;
+	--sl-color-purple-low: #ede9fe;
+
+	/* Fonts: Montserrat headings, Nunito Sans body */
+	--sl-font: 'Nunito Sans', system-ui, -apple-system, sans-serif;
+	--sl-font-headings: 'Montserrat', 'Nunito Sans', system-ui, sans-serif;
+}
+
+/* Annotated screenshots: full-width, bordered, captions. */
 .content img[src^='/captures/'] {
 	width: 100%;
 	height: auto;
@@ -19,4 +94,9 @@
 	line-height: 1.5;
 	color: var(--sl-color-gray-3);
 	text-align: center;
+}
+
+/* Brand touch: dark-green site header band with white title text. */
+.site-title {
+	color: #ffffff;
 }
