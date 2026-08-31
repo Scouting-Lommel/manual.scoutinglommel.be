@@ -674,9 +674,6 @@ const ADMIN_DEFINITIONS: ScreenshotDefinition[] = [
 		url: `${adminBase()}/admin/plugins/upload`,
 		waitSelector: 'main img',
 		waitFallbacks: ['main'],
-		highlight: 'main img',
-		label: 'Media bibliotheek',
-		callout: 'bottom',
 	},
 	{
 		id: 'admin-settings',
