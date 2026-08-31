@@ -12,6 +12,8 @@ export default defineConfig({
 				root: { label: 'Nederlands', lang: 'nl' },
 			},
 			sidebar: [
+				// Home / overview page for the manual.
+				{ label: 'Overzicht', link: '/' },
 				// Grouped TOC: a few sections, each with multiple pages.
 				{
 					label: 'Aan de slag',
