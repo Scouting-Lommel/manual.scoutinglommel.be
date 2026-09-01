@@ -88,12 +88,37 @@ De overige blokken (Evenementen, Galerij, Beleid, Leiders, Kaart, Activiteiten, 
 
 ## Opslaan vs. publiceren
 
-In het CMS zijn er twee knoppen die op elkaar lijken:
+In het CMS zijn er twee knoppen die op elkaar lijken, maar een heel verschillend effect hebben:
 
-- **Opslaan** (_Save_) — bewaart je wijzigingen als **concept**. Het concept is nog niet zichtbaar op de website.
-- **Publiceren** (_Publish_) — maakt je wijzigingen **live**. Pas dan ziet de bezoeker ze op de website.
+| | **Opslaan** | **Publiceren** |
+|---|---|---|
+| **Wat gebeurt er?** | Je wijzigingen worden bewaard als **concept**. | Je wijzigingen worden **live** gezet. |
+| **Ziet de bezoeker het?** | Nee. | Ja, meteen. |
+| **Wanneer gebruik je het?** | Tijdens het werken, om tussendoor te bewaren. | Wanneer je klaar bent en het mag getoond worden. |
 
-De status van een item zie je bovenaan: **"Draft"** (concept) of **"Published"** (gepubliceerd).
+### Het verschil in detail
+
+**Opslaan** bewaart je werk op de server, maar houdt het verborgen voor bezoekers. Je kan op elk moment verderwerken aan je concept. Andere gebruikers van het CMS kunnen je concept wel zien, maar bezoekers van de website niet.
+
+**Publiceren** maakt je concept zichtbaar voor iedereen. Vanaf dat moment is de nieuwe versie de versie die bezoekers zien.
+
+### De status van een item
+
+Bovenaan elk item zie je de huidige status:
+
+- **"Draft"** (concept) — het item is opgeslagen, maar nog niet gepubliceerd.
+- **"Published"** (gepubliceerd) — het item is live op de website.
+- **"Modified"** (gewijzigd) — het item was al gepubliceerd, maar je hebt nieuwe wijzigingen aangebracht die nog niet gepubliceerd zijn.
+
+Wanneer de status "Modified" toont, betekent dat er een **conceptversie** bestaat naast de **gepubliceerde versie**. Bezoekers zien nog steeds de oude, gepubliceerde versie. Pas wanneer je opnieuw publiceert, worden de nieuwe wijzigingen zichtbaar.
+
+### Een typische werkwijze
+
+1. Je opent een pagina en maakt wijzigingen.
+2. Je klikt **"Opslaan"** om tussendoor te bewaren.
+3. Je werkt verder en klikt opnieuw **"Opslaan"**.
+4. Wanneer je tevreden bent, klik je **"Publiceren"**.
+5. Je controleert de website om te zien of alles er goed uitziet.
 
 > **Vergeet niet te publiceren.** Dit is de meest voorkomende reden waarom een wijziging "niet werkt". Zie ook [10 · Troubleshooting](/10-troubleshooting/).
 

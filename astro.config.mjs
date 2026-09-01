@@ -23,14 +23,15 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Inhoud beheren',
-					items: [
-						{ label: 'Overzicht inhoudstypen', link: '03-overzicht-inhoudstypen' },
-						{ label: 'Een pagina bewerken', link: '04-pagina-bewerken' },
-						{ label: 'Media', link: '05-media' },
-						{ label: 'Publiceren & versheid', link: '06-publiceren-versheid' },
-					],
-				},
+				label: 'Inhoud beheren',
+				items: [
+				{ label: 'Overzicht inhoudstypen', link: '03-overzicht-inhoudstypen' },
+				{ label: 'Werken met verzamelingen', link: '03b-werken-met-verzamelingen' },
+				{ label: 'Een pagina bewerken', link: '04-pagina-bewerken' },
+				{ label: 'Media', link: '05-media' },
+				 { label: 'Publiceren & versheid', link: '06-publiceren-versheid' },
+				 ],
+			},
 				{
 					label: 'Website beheren',
 					items: [
@@ -39,13 +40,19 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Tips & hulp',
-					items: [
-						{ label: 'Wat je beter niet doet', link: '09-wat-je-beter-niet-doet' },
-						{ label: 'Troubleshooting', link: '10-troubleshooting' },
-						{ label: 'Vragen & wijzigingen', link: '11-vragen-wijzigingen' },
-					],
+				label: 'Tips & hulp',
+				items: [
+				{ label: 'Wat je beter niet doet', link: '09-wat-je-beter-niet-doet' },
+				{ label: 'Troubleshooting', link: '10-troubleshooting' },
+				{ label: 'Vragen & wijzigingen', link: '11-vragen-wijzigingen' },
+				],
 				},
+			{
+				label: 'Groepsleiding',
+				items: [
+					{ label: 'Taken van de groepsleiding', link: '12-groepsleiding-taken' },
+				],
+			},
 			],
 			customCss: ['./src/styles/custom.css'],
 			favicon: '/favicon.ico',

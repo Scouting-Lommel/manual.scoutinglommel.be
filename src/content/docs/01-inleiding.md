@@ -32,11 +32,30 @@ Het enige dat je moet onthouden: **wat je in het CMS zet, verschijnt op de websi
 
 ## Van het CMS naar de website: hoe zit een pagina in elkaar?
 
-Alles wat je in het CMS invult, komt ergens op de website terecht. Een pagina is opgebouwd uit drie lagen:
+Alles wat je in het CMS invult, komt ergens op de website terecht. Een pagina is opgebouwd uit vier lagen die in elkaar zitten als een set matroesjka's:
 
-1. **Velden** — de losse stukjes tekst en foto's die je invult. Een veld "Titel" wordt de grote kop bovenaan de pagina. Een veld "Tekst" wordt de lopende tekst. Een veld "Foto" wordt de afbeelding.
-2. **Blokken** — de bouwstenen van een pagina. Elk blok is één onderdeel: een titelbalk, een tekst met foto, een kalender, een lijst van veelgestelde vragen. Je vult een blok in met velden.
-3. **Secties** — wat de bezoeker op de website ziet. Elk blok dat je toevoegt, wordt één sectie op de pagina.
+1. **Items (entries)** — één pagina, één tak, één evenement. Het item is de hele verpakking: het bevat alle blokken en velden die bij elkaar horen.
+2. **Velden (fields)** — de losse stukjes tekst en foto's die je invult. Een veld "Titel" wordt de grote kop bovenaan de pagina. Een veld "Tekst" wordt de lopende tekst. Een veld "Foto" wordt de afbeelding.
+3. **Blokken (blocks)** — de bouwstenen van een pagina. Elk blok is één onderdeel: een titelbalk, een tekst met foto, een kalender, een lijst van veelgestelde vragen. Je vult een blok in met velden.
+4. **Secties** — wat de bezoeker op de website ziet. Elk blok dat je toevoegt, wordt één sectie op de pagina.
+
+### Hoe hangen ze samen?
+
+Stel je een pagina voor als een artikel in een krant:
+
+- **Het item** is het hele artikel.
+- **De blokken** zijn de paragrafen, foto's en tussenkoppen binnen dat artikel.
+- **De velden** zijn de losse zinnen, woorden en afbeeldingen in elke paragraaf.
+- **De secties** zijn wat de lezer uiteindelijk op papier ziet.
+
+Of, concreet voor de website:
+
+| Laag | In het CMS | Op de website |
+|------|-----------|---------------|
+| **Item** | Je opent "Pagina - Home" en bewerkt die. | De homepage op scoutinglommel.be. |
+| **Blok** | Je voegt een blok "Tekst & afbeelding" toe. | Een sectie met tekst en een foto. |
+| **Veld** | Je typt iets in het veld "Titel" van dat blok. | De kop boven die sectie. |
+| **Sectie** | — | Wat de bezoeker ziet: de kop, de tekst en de foto samen. |
 
 De volgorde van de blokken in het CMS is de volgorde op de website — van boven naar beneden. Wat je bovenaan in het CMS zet, staat bovenaan op de pagina. Wat je onderaan zet, staat onderaan.
 

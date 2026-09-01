@@ -6,7 +6,7 @@ description: Alle soorten inhoud in het CMS — pagina's, takken, leiders, kalen
 In het CMS staat alle inhoud van de website. Elke soort inhoud heeft een vaste vorm waarin je gegevens invult. Er zijn twee soorten:
 
 - **Verzamelingen** (_collection types_) — lijsten van gelijkaardige items, zoals alle takken of alle evenementen. Elk item is één losse vermelding.
-- **Losse pagina's** (_single types_) — één enkel item, zoals de homepage of de instellingen. Daar is er maar één van.
+- **Losse items** (_single types_) — één enkel item, zoals de homepage, de contactpagina of de algemene instellingen. Daar is er maar één van.
 
 Hieronder vind je een overzicht van de soorten inhoud die je in de praktijk gebruikt.
 
