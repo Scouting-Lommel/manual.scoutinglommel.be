@@ -116,6 +116,7 @@ Heb je een idee voor een nieuwe pagina of een nieuwe functie op de website?
 - Beschrijf je idee zo concreet mogelijk.
 - Vermeld waarom het nuttig is en voor wie (ouders, leden, bezoekers).
 - De webmasters bekijken of het haalbaar is en plannen het in.
+- Wordt je idee gebouwd, dan kan je het eerst testen op de [staging-omgeving](/13-staging-omgeving/) voordat het live gaat.
 
 ## Samenvatting: jouw taken op een rij
 
