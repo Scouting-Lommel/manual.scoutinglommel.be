@@ -9,11 +9,13 @@ Wanneer er een nieuwe functie wordt ontwikkeld voor de website, gaat die niet me
 
 De staging-omgeving is een **afgeschermde testversie** van de website. Ze ziet eruit en werkt zoals de echte website, maar bezoekers kunnen er niet bij.
 
+- **Website (staging):** [staging.scoutinglommel.be](https://staging.scoutinglommel.be) — de testversie van de website
+- **CMS (staging):** [staging.admin.scoutinglommel.be](https://staging.admin.scoutinglommel.be) — het CMS dat bij staging hoort
 - Je vindt er dezelfde pagina's, takken en inhoud als op de live website — plus de nieuwe functie die getest moet worden.
 - Alles wat je op staging doet, blijft op staging. Het heeft **geen effect** op de live website.
 - En omgekeerd: wijzigingen die je op de live website doet (via het CMS op [admin.scoutinglommel.be](https://admin.scoutinglommel.be)), verschijnen niet automatisch op staging.
 
-Kort samengevat: **live is wat ouders en leden zien, staging is waar je test of iets klaar is om live te gaan.**
+Kort samengevat: **live is wat ouders en leden zien ([scoutinglommel.be](https://www.scoutinglommel.be)), staging is waar je test of iets klaar is om live te gaan ([staging.scoutinglommel.be](https://staging.scoutinglommel.be)).**
 
 ## Wanneer wordt staging gebruikt?
 
@@ -30,7 +32,7 @@ In al die gevallen krijg je een seintje van team web dat er iets klaarstaat op s
 
 De staging-omgeving is **alleen toegankelijk voor team web en groepsleiding**. Ze is niet publiek vindbaar en niet geïndexeerd door zoekmachines.
 
-Team web bezorgt je de link naar de staging-omgeving wanneer er iets te testen valt, samen met een korte uitleg wat je moet nakijken. Krijg je geen link, dan is er op dat moment niets te testen.
+Team web laat je weten wanneer er iets te testen valt, samen met een korte uitleg wat je moet nakijken. Ga dan naar [staging.scoutinglommel.be](https://staging.scoutinglommel.be) (of [staging.admin.scoutinglommel.be](https://staging.admin.scoutinglommel.be) als je inhoud in het staging-CMS moet bekijken). Krijg je geen seintje, dan is er op dat moment niets te testen.
 
 > **Tip:** bewaar de staging-link niet als bladwijzer voor dagelijks gebruik. Gebruik voor je gewone taken altijd het CMS op [admin.scoutinglommel.be](https://admin.scoutinglommel.be) en controleer het resultaat op de live website. Staging gebruik je alleen wanneer team web je expliciet vraagt om te testen.
 
@@ -38,7 +40,7 @@ Team web bezorgt je de link naar de staging-omgeving wanneer er iets te testen v
 
 Wanneer team web je vraagt om te testen, doorloop je deze stappen:
 
-1.  **Open de staging-link** die je van team web kreeg (op je laptop én op je telefoon).
+1.  **Open de staging-website** op [staging.scoutinglommel.be](https://staging.scoutinglommel.be) (op je laptop én op je telefoon).
 2.  **Bekijk de nieuwe functie** zoals een bezoeker dat zou doen. Klik rond, vul eventueel een testformulier in, controleer of alles logisch aanvoelt.
 3.  **Let op deze punten:**
     - Klopt de tekst? Geen typefouten of placeholder-tekst?
@@ -61,9 +63,9 @@ Staging blijft staan tot de groepsleiding groen licht geeft.
 
 ## Wat staging niet is
 
-- **Geen plek om gewone inhoud te bewerken.** Teksten, foto's, evenementen en tarieven pas je altijd aan via het CMS op [admin.scoutinglommel.be](https://admin.scoutinglommel.be). Die wijzigingen gaan meteen live na publiceren (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
+- **Geen plek om gewone inhoud te bewerken.** Teksten, foto's, evenementen en tarieven pas je altijd aan via het CMS op [admin.scoutinglommel.be](https://admin.scoutinglommel.be) (niet op [staging.admin.scoutinglommel.be](https://staging.admin.scoutinglommel.be) — dat is alleen voor het testen van nieuwe functies). Die live wijzigingen gaan meteen live na publiceren (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
 - **Geen archief.** Staging wordt regelmatig overschreven met de nieuwste versie. Reken er niet op dat iets er weken later nog identiek uitziet.
-- **Geen publieke website.** Deel de staging-link niet met ouders, leden of leiding buiten de groepsleiding.
+- **Geen publieke website.** Deel [staging.scoutinglommel.be](https://staging.scoutinglommel.be) niet met ouders, leden of leiding buiten de groepsleiding.
 
 ## Samengevat
 
