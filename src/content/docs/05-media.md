@@ -1,6 +1,6 @@
 ---
 title: Media
-description: Foto's en bestanden toevoegen via de Media Library — uploaden, beheren en gebruiken op pagina's.
+description: "Foto's en bestanden toevoegen via de Media Library: uploaden, beheren en gebruiken op pagina's."
 ---
 
 Alle foto's en bestanden van de website staan in de **Media Library**. Van daaruit voeg je afbeeldingen toe aan pagina's, takken, evenementen en andere inhoud.
@@ -18,7 +18,7 @@ Klik in de zijkolom van het CMS op **"Media Library"**. Je ziet alle afbeeldinge
 
 1. Klik in de Media Library op **"Upload assets"** (of sleep een bestand naar het venster).
 2. Kies het bestand op je computer. Je kan meerdere bestanden tegelijk uploaden.
-3. Geef de afbeelding een duidelijke naam en voeg eventueel een beschrijving toe — zo vind je ze later makkelijk terug.
+3. Geef de afbeelding een duidelijke naam en voeg eventueel een beschrijving toe. Zo vind je ze later makkelijk terug.
 
 ## Waar worden de bestanden bewaard?
 

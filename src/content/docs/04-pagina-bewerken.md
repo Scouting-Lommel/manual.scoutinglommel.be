@@ -1,6 +1,6 @@
 ---
 title: Een pagina bewerken
-description: Hoe je een pagina opbouwt met blokken — de plek waar je blokken toevoegt, alle bloktypes en het verschil tussen opslaan en publiceren.
+description: "Hoe je een pagina opbouwt met blokken: de plek waar je blokken toevoegt, alle bloktypes en het verschil tussen opslaan en publiceren."
 ---
 
 Elke pagina van de website is opgebouwd uit **blokken**. Een blok is één onderdeel van een pagina: een titelbalk, een tekst met foto, een kalender, een lijst van veelgestelde vragen. Je schuift de blokken in de juiste volgorde en vult ze in. De website zet ze automatisch om in een mooie pagina.
@@ -46,14 +46,14 @@ de website te zien krijgen:
 
 Elk blok heeft een aantal velden. Hieronder staan de belangrijkste blokken uitgewerkt:
 
-**Hero** — de grote titelbalk bovenaan een pagina:
+**Hero**: de grote titelbalk bovenaan een pagina:
 
 - **Titel** → de grote kop bovenaan de pagina.
 - **Ondertitel** → de kleinere tekst onder de titel.
 - **Knop** (optioneel) → een knop met een label en een link (bv. "Schrijf je in").
 - **Jaarthema** (optioneel) → toont het jaarthema in de banner.
 
-**Tekst & afbeelding** — het werkpaard voor de meeste pagina's:
+**Tekst & afbeelding**: het werkpaard voor de meeste pagina's:
 
 - **Titel** → de kop boven de sectie.
 - **Tekst** → de lopende tekst.
@@ -61,30 +61,30 @@ Elk blok heeft een aantal velden. Hieronder staan de belangrijkste blokken uitge
 - **Richting** (layout) → of de afbeelding links of rechts staat.
 - **Knop** (optioneel) → een knop onder de tekst.
 
-**Takken** — de lijst van takken:
+**Takken**: de lijst van takken:
 
 - **Titel** → de kop boven de lijst.
 - **Takken** → welke takken getoond worden; elk item toont de naam, het logo en een link naar de pagina van de tak.
 
-**Veelgestelde vragen (FAQ)** — de uitklapbare vragen:
+**Veelgestelde vragen (FAQ)**: de uitklapbare vragen:
 
 - **Titel** → de kop boven de lijst.
 - **Ondertekst** (optioneel) → een tekst onder de titel.
 - **Vragen** → de vragen en antwoorden die bezoekers kunnen openklappen.
 
-**Tarieven** — de prijstabel:
+**Tarieven**: de prijstabel:
 
 - **Titel** → de kop boven de tabel.
 - **Tarieven** → de rijen van de tabel (naam, bedrag, ...).
 
-**Bestanden** — downloadbare bestanden:
+**Bestanden**: downloadbare bestanden:
 
 - **Titel** → de kop boven de lijst.
 - **Bestanden** → de downloadbare bestanden met hun naam.
 
 De overige blokken (Evenementen, Galerij, Beleid, Leiders, Kaart, Activiteiten, Kalender, Jaarthema, Scheidingslijn) werken op dezelfde manier: je vult een titel en de bijbehorende items in, en de website toont ze als één sectie op de pagina.
 
-> **De gouden regel:** wat je in een veld typt, verschijnt op de website op de plek die het veld aangeeft. De volgorde van de blokken is de volgorde op de pagina — van boven naar beneden.
+> **De gouden regel:** wat je in een veld typt, verschijnt op de website op de plek die het veld aangeeft. De volgorde van de blokken is de volgorde op de pagina, van boven naar beneden.
 
 ## Opslaan vs. publiceren
 
@@ -106,9 +106,9 @@ In het CMS zijn er twee knoppen die op elkaar lijken, maar een heel verschillend
 
 Bovenaan elk item zie je de huidige status:
 
-- **"Draft"** (concept) — het item is opgeslagen, maar nog niet gepubliceerd.
-- **"Published"** (gepubliceerd) — het item is live op de website.
-- **"Modified"** (gewijzigd) — het item was al gepubliceerd, maar je hebt nieuwe wijzigingen aangebracht die nog niet gepubliceerd zijn.
+- **"Draft"** (concept): het item is opgeslagen, maar nog niet gepubliceerd.
+- **"Published"** (gepubliceerd): het item is live op de website.
+- **"Modified"** (gewijzigd): het item was al gepubliceerd, maar je hebt nieuwe wijzigingen aangebracht die nog niet gepubliceerd zijn.
 
 Wanneer de status "Modified" toont, betekent dat er een **conceptversie** bestaat naast de **gepubliceerde versie**. Bezoekers zien nog steeds de oude, gepubliceerde versie. Pas wanneer je opnieuw publiceert, worden de nieuwe wijzigingen zichtbaar.
 
@@ -122,4 +122,4 @@ Wanneer de status "Modified" toont, betekent dat er een **conceptversie** bestaa
 
 > **Vergeet niet te publiceren.** Dit is de meest voorkomende reden waarom een wijziging "niet werkt". Zie ook [10 · Troubleshooting](/10-troubleshooting/).
 
-Zodra je publiceert, is de wijziging **meteen live** op de website — er is geen wachttijd (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
+Zodra je publiceert, is de wijziging **meteen live** op de website. Er is geen wachttijd (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).

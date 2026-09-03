@@ -36,4 +36,4 @@ Drie dingen die je meteen opvallen:
 
 - **Deel je account niet.** Elke groepsleider heeft best een eigen account, zodat je altijd weet wie welke wijziging deed.
 - **Log uit op een gedeelde computer.** Klik op je profiel rechtsboven en kies "Log out" wanneer je klaar bent.
-- **Vraag 2-stapsverificatie aan** als je je account extra wilt beveiligen. De ontwikkelaars kunnen dit voor je inschakelen.
+- **Vraag 2-stapsverificatie aan** als je je account extra wilt beveiligen. Team Web kan dit voor je inschakelen.

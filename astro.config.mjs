@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'CMS-handleiding Scouting Lommel',
+			title: 'Website handleiding Scouting Lommel',
 			defaultLocale: 'root',
 			locales: {
 				root: { label: 'Nederlands', lang: 'nl' },

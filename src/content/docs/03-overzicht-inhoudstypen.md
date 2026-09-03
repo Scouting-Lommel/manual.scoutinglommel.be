@@ -1,12 +1,12 @@
 ---
 title: Overzicht inhoudstypen
-description: Alle soorten inhoud in het CMS — pagina's, takken, leiders, kalender en activiteiten, tarieven, handleidingen, verhuur, FAQ, media, navigatie en instellingen.
+description: "Alle soorten inhoud in het CMS: pagina's, takken, leiders, kalender en activiteiten, tarieven, handleidingen, verhuur, FAQ, media, navigatie en instellingen."
 ---
 
 In het CMS staat alle inhoud van de website. Elke soort inhoud heeft een vaste vorm waarin je gegevens invult. Er zijn twee soorten:
 
-- **Verzamelingen** (_collection types_) — lijsten van gelijkaardige items, zoals alle takken of alle evenementen. Elk item is één losse vermelding.
-- **Losse items** (_single types_) — één enkel item, zoals de homepage, de contactpagina of de algemene instellingen. Daar is er maar één van.
+- **Verzamelingen** (_collection types_): lijsten van gelijkaardige items, zoals alle takken of alle evenementen. Elk item is één losse vermelding.
+- **Losse items** (_single types_): één enkel item, zoals de homepage, de contactpagina of de algemene instellingen. Daar is er maar één van.
 
 Hieronder vind je een overzicht van de soorten inhoud die je in de praktijk gebruikt.
 
@@ -78,9 +78,9 @@ De leiders van elke tak staan in de verzameling **"Leiders"**. Elke leider is ge
 
 ## Kalender & activiteiten
 
-- **"Evenementen"** — losse evenementen met datum, plaats en beschrijving.
-- **"Activiteiten"** — activiteiten die op de website getoond worden (bv. op de dashboardpagina van een tak).
-- **"Kalender"** — de kalenderweergave op een pagina.
+- **"Evenementen"**: losse evenementen met datum, plaats en beschrijving.
+- **"Activiteiten"**: activiteiten die op de website getoond worden (bv. op de dashboardpagina van een tak).
+- **"Kalender"**: de kalenderweergave op een pagina.
 
 Deze gegevens verschijnen op de website zodra je ze publiceert (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
 
@@ -90,7 +90,7 @@ De verzameling **"Tarieven"** bevat de prijzen (bv. lidgeld, kamp). Op een pagin
 
 ## Handleidingen
 
-De verzameling **"Handleidingen"** bevat de handleidingen voor de **leiding** van de groep, te raadplegen op [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen) (bv. de oudergids of het huishoudelijk reglement). Dat zijn dus niet deze handleidingen — deze handleiding voor de groepsleiders staat op manual.scoutinglommel.be.
+De verzameling **"Handleidingen"** bevat de handleidingen voor de **leiding** van de groep, te raadplegen op [scoutinglommel.be/handleidingen](https://www.scoutinglommel.be/handleidingen) (bv. de oudergids of het huishoudelijk reglement). Dat zijn dus niet deze handleidingen. Deze handleiding voor de groepsleiders staat op manual.scoutinglommel.be.
 
 <figure>
   <img src="/captures/site-handleidingen.png" alt="De handleidingenpagina voor de leiding" />
@@ -139,4 +139,4 @@ Het losse type **"Algemeen"** bevat de algemene instellingen: het logo, de naam 
 
 ## Soorten inhoud die je niet hoeft te bewerken
 
-Daarnaast bestaan er enkele soorten inhoud die je in de praktijk zelden of nooit hoeft te bewerken: "Artikels", "Audience", "Socials", "Takfuncties", "Jaarthema's" en "User". Laat die met rust tenzij je weet waarvoor ze dienen — zie ook [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).
+Daarnaast bestaan er enkele soorten inhoud die je in de praktijk zelden of nooit hoeft te bewerken: "Artikels", "Audience", "Socials", "Takfuncties", "Jaarthema's" en "User". Laat die met rust tenzij je weet waarvoor ze dienen. Zie ook [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).

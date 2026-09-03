@@ -1,6 +1,6 @@
 ---
 title: Werken met verzamelingen
-description: Hoe je efficiënt werkt met lijsten van items in het CMS — filteren, zoeken, kolommen tonen/verbergen en sorteren.
+description: "Hoe je efficiënt werkt met lijsten van items in het CMS: filteren, zoeken, kolommen tonen/verbergen en sorteren."
 ---
 
 Verzamelingen (collection types) zijn lijsten van gelijkaardige items: alle takken, alle evenementen, alle leiders, ... Wanneer je een verzameling opent in het CMS, zie je een overzicht van alle items. Dit overzicht biedt verschillende handige functies om snel te vinden wat je zoekt.

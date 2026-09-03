@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Problemen oplossen — een wijziging die niet zichtbaar is, een ontbrekende afbeelding of een onderhoudspagina.
+description: "Problemen oplossen: een wijziging die niet zichtbaar is, een ontbrekende afbeelding of een onderhoudspagina."
 ---
 
 Loopt er iets mis? De meeste problemen hebben een eenvoudige oplossing. Doorloop de stappen hieronder in volgorde.
@@ -12,7 +12,7 @@ Loopt er iets mis? De meeste problemen hebben een eenvoudige oplossing. Doorloop
 3. **Wacht even en probeer opnieuw.** Soms duurt het een paar seconden voordat de website de wijziging heeft opgehaald. Herlaad na een tiental seconden nog eens.
 4. **Controleer of je de juiste pagina bewerkt hebt.** Staat de wijziging in het juiste item? Wordt dat item ook echt op die pagina getoond?
 
-Zie je de wijziging nog steeds niet? Dan is er misschien iets anders aan de hand — meld het aan de ontwikkelaars (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/)).
+Zie je de wijziging nog steeds niet? Dan is er misschien iets anders aan de hand: meld het bij Team Web (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/)).
 
 ## Een afbeelding ontbreekt op de website
 
@@ -27,14 +27,14 @@ De website staat in onderhoudsmodus. Dat gebeurt via de schakelaar **"Onderhouds
 1. Log in op het CMS en open **"Algemeen"** in het Content Manager.
 2. Zet de schakelaar **"Onderhoudspagina"** op **uit**.
 3. **Publiceer** de wijziging.
-4. Herlaad de website — ze zou weer normaal bereikbaar moeten zijn.
+4. Herlaad de website. Ze zou weer normaal bereikbaar moeten zijn.
 
 ## Ik kan niet inloggen op het CMS
 
-1. Controleer of je het juiste adres gebruikt: [admin.scoutinglommel.be](https://admin.scoutinglommel.be) (niet scoutinglommel.be — dat is de website).
+1. Controleer of je het juiste adres gebruikt: [admin.scoutinglommel.be](https://admin.scoutinglommel.be) (niet scoutinglommel.be, dat is de website).
 2. Controleer je e-mailadres en wachtwoord. Let op hoofdletters en typfouten.
-3. Werkt het nog niet? Vraag de ontwikkelaars om je wachtwoord te resetten (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/)).
+3. Werkt het nog niet? Vraag Team Web om je wachtwoord te resetten (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/)).
 
 ## Nog steeds vast?
 
-Noteer wat je deed (welke pagina, welke wijziging, wat je zag) en meld het aan de ontwikkelaars — zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/).
+Noteer wat je deed (welke pagina, welke wijziging, wat je zag) en meld het bij Team Web (zie [11 · Vragen & wijzigingen](/11-vragen-wijzigingen/)).

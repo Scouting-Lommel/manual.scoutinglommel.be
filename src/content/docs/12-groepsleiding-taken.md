@@ -1,6 +1,6 @@
 ---
 title: Taken van de groepsleiding
-description: Welke taken de groepsleiding op zich neemt voor en tijdens het scoutsjaar — van het jaarthema tot het onderhouden van de website.
+description: "Welke taken de groepsleiding op zich neemt voor en tijdens het scoutsjaar: van het jaarthema tot het onderhouden van de website."
 ---
 
 De groepsleiding is verantwoordelijk voor de inhoud en het onderhoud van de website. Hieronder vind je een overzicht van de taken die daarbij horen, gerangschikt per periode.
@@ -82,15 +82,15 @@ Door het jaar heen kan er inhoud verouderd raken.
 
 Werkt er iets niet op de website? Of heb je een idee voor een verbetering?
 
-- Meld het aan de webmasters via **webmaster@scoutinglommel.be**.
+- Meld het bij Team Web via **webmaster@scoutinglommel.be**.
 - Of stuur een berichtje via WhatsApp als dat sneller is.
 - Beschrijf het probleem zo concreet mogelijk: welke pagina, welke actie, wat zag je, wat had je verwacht?
 
-> **Tip:** voeg een screenshot toe bij visuele problemen. Dat maakt het voor de webmasters veel makkelijker om te begrijpen wat er mis is.
+> **Tip:** voeg een screenshot toe bij visuele problemen. Dat maakt het voor Team Web veel makkelijker om te begrijpen wat er mis is.
 
 ## Op aanvraag
 
-Naast de standaardtaken kan de groepsleiding ook specifieke functies aanvragen bij de webmasters. Deze worden niet door de groepsleiding zelf uitgevoerd, maar door de webmasters op verzoek.
+Naast de standaardtaken kan de groepsleiding ook specifieke functies aanvragen bij Team Web. Deze worden niet door de groepsleiding zelf uitgevoerd, maar door Team Web op verzoek.
 
 ### Aangepaste formulieren
 
@@ -105,7 +105,7 @@ Soms heb je een formulier nodig voor een specifiek doel, bv.:
 
 1. Stuur een mail naar **webmaster@scoutinglommel.be**.
 2. Beschrijf wat het formulier moet doen: welke velden moeten erin, waar moeten de antwoorden naartoe, moet er een bevestigingsmail verstuurd worden?
-3. De webmasters bekijken wat mogelijk is en bouwen het formulier.
+3. Team Web bekijkt wat mogelijk is en bouwt het formulier.
 
 > **Let op:** het bouwen van een formulier kost tijd. Vraag het minstens enkele weken voor je het nodig hebt.
 
@@ -115,7 +115,7 @@ Heb je een idee voor een nieuwe pagina of een nieuwe functie op de website?
 
 - Beschrijf je idee zo concreet mogelijk.
 - Vermeld waarom het nuttig is en voor wie (ouders, leden, bezoekers).
-- De webmasters bekijken of het haalbaar is en plannen het in.
+- Team Web bekijkt of het haalbaar is en plant het in.
 - Wordt je idee gebouwd, dan kan je het eerst testen op de [staging-omgeving](/13-staging-omgeving/) voordat het live gaat.
 
 ## Samenvatting: jouw taken op een rij
@@ -128,6 +128,6 @@ Heb je een idee voor een nieuwe pagina of een nieuwe functie op de website?
 | **Doorheen het jaar** | Woordje van de groepsleiding onderhouden |
 | | Evenementen toevoegen |
 | | Website-inhoud controleren en bijwerken |
-| | Bugs en ideeën doorgeven aan webmasters |
+| | Bugs en ideeën doorgeven aan Team Web |
 | **Op aanvraag** | Aangepaste formulieren aanvragen |
 | | Nieuwe pagina's of functies voorstellen |
