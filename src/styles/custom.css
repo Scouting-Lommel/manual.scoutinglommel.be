@@ -106,12 +106,24 @@
 		0 8px 24px rgb(13 13 13 / 12%);
 }
 
-.content figcaption {
+.sl-markdown-content figcaption {
 	margin-top: 0.5rem;
 	font-size: 0.875rem;
 	line-height: 1.5;
-	color: var(--sl-color-gray-3);
+	color: var(--sl-color-gray-4);
 	text-align: center;
+}
+
+.sl-markdown-content blockquote {
+	background-color: #edf1ef;
+	border-left-color: #364d3f;
+	padding: 0.75rem 1rem;
+	border-radius: 0.25rem;
+	margin: 1.25rem 0;
+}
+
+.sl-markdown-content blockquote strong {
+	color: #364d3f;
 }
 
 /* Contrast fixes: brand dark green for the site title on the light-yellow

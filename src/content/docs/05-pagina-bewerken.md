@@ -1,0 +1,75 @@
+---
+title: Een pagina bewerken
+description: 'Hoe je een pagina opbouwt met blokken: de plek waar je blokken toevoegt, alle bloktypes en het verschil tussen opslaan en publiceren.'
+---
+
+Elke pagina van de website is opgebouwd uit **blokken**. Een blok is één onderdeel van een pagina: een titelbalk, een tekst met foto, een kalender, een lijst van veelgestelde vragen. Je schuift de blokken in de juiste volgorde en vult ze in. De website zet ze automatisch om in een mooie pagina.
+
+## Zo voeg je blokken toe
+
+1. Open in het **Content Manager** de soort inhoud van de pagina die je wil bewerken (bv. "Pagina - Algemene informatie").
+2. Klik op het item van de pagina (of op "Nieuw item" voor een nieuwe pagina).
+3. In het blokken-gebied zie je de bestaande blokken. Klik op **"Een blok toevoegen"** om een nieuw blok toe te voegen. Gebruik de pijltjes of sleep om de volgorde te wijzigen. Klik op het prullenmandje om een blok te verwijderen.
+4. Vul elk blok in en klik op **Opslaan**.
+
+<figure>
+  <img src="/captures/admin-page-edit.png" alt="Een pagina bewerken met het blokken-gebied vol blokken" />
+  <figcaption><em>Een pagina bewerken: het blokken-gebied met de blokken van de pagina.</em></figcaption>
+</figure>
+
+## De blokken op een rij
+
+Dit zijn de blokken die de website ondersteunt. In de rechterkolom zie je wat bezoekers op
+de website te zien krijgen:
+
+| Blok                    | Wat doet het?                                                                                     | Op de website zie je dit als...                |
+| ----------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **Hero**                | De grote titelbalk bovenaan een pagina, vaak met een foto of kleurvlak en een korte onderschrift. | De grote banner bovenaan de pagina.            |
+| **Tekst & afbeelding**  | Een tekstblok met een afbeelding ernaast. Het werkpaard voor de meeste pagina-inhoud.             | Een sectie met tekst en een foto naast elkaar. |
+| **Takken**              | Toont de takken van de groep (bv. op de takkenpagina).                                            | De lijst met takken                            |
+| **Evenementen**         | Toont een lijst van evenementen.                                                                  | De lijst met aankomende evenementen.           |
+| **Policy**              | Toont een policytekst (bv. privacybeleid, drugs- en alcoholbeleid).                               | Een blok met tekst.                            |
+| **Leiders**             | Toont de leiders van een tak met hun functie.                                                     | De namen en functies van de leiding.           |
+| **Tarieven**            | Toont een overzicht van prijzen en tarieven.                                                      | De prijstabel voor verhuur                     |
+| **Links en bestanden**  | Toont bestanden en links                                                                          | De lijst met bestanden die je kan downloaden.  |
+| **Veelgestelde vragen** | Toont een lijst van vragen.                                                                       | De uitklapbare vragen en antwoorden.           |
+| **Kaart**               | Toont een kaart, bv. met de locatie van het lokaal.                                               | De kaart met het lokaal.                       |
+| **Activiteiten**        | Toont een lijst van activiteiten.                                                                 | De lijst met activiteiten.                     |
+| **Jaarthema**           | Toont het jaarthema van de het huidige scoutsjaar.                                                | De sectie met het jaarthema.                   |
+| **Divider**             | Een dunne lijn die blokken visueel van elkaar scheidt.                                            | Een dunne lijn tussen twee secties.            |
+
+> **Let op:** Er zijn een aantal blokken die momenteel nog niet ondersteund worden op de website (bijv. artikels, kalender, gallerij). Deze zijn voor latere uitbreiding van de website. Gebruik ze dus niet. Zie [Wat je beter niet doet](/12-wat-je-beter-niet-doet/).
+
+> De volgorde van de blokken is de volgorde op de pagina, van boven naar beneden.
+
+## Opslaan vs. publiceren
+
+In het CMS zijn er twee knoppen die op elkaar lijken, maar een heel verschillend effect hebben:
+
+|                             | **Opslaan**                                    | **Publiceren**                                   |
+| --------------------------- | ---------------------------------------------- | ------------------------------------------------ |
+| **Wat gebeurt er?**         | Je wijzigingen worden bewaard als **concept**. | Je wijzigingen worden **live** gezet.            |
+| **Ziet de bezoeker het?**   | Nee.                                           | Ja, meteen.                                      |
+| **Wanneer gebruik je het?** | Tijdens het werken, om tussendoor te bewaren.  | Wanneer je klaar bent en het mag getoond worden. |
+
+### De status van een item
+
+Bovenaan elk item zie je de huidige status:
+
+- **"Draft"** (concept): het item is opgeslagen, maar nog niet gepubliceerd.
+- **"Published"** (gepubliceerd): het item is live op de website.
+- **"Modified"** (gewijzigd): het item was al gepubliceerd, maar je hebt nieuwe wijzigingen aangebracht die nog niet gepubliceerd zijn.
+
+Wanneer de status "Modified" toont, betekent dat er een **conceptversie** bestaat naast de **gepubliceerde versie**. Bezoekers zien nog steeds de oude, gepubliceerde versie. Pas wanneer je opnieuw publiceert, worden de nieuwe wijzigingen zichtbaar.
+
+### Een typische werkwijze
+
+1. Je opent een pagina en maakt wijzigingen.
+2. Je klikt **"Opslaan"** om tussendoor te bewaren.
+3. Je werkt verder en klikt opnieuw **"Opslaan"**.
+4. Wanneer je tevreden bent, klik je **"Publiceren"**.
+5. Je controleert de website om te zien of alles er goed uitziet.
+
+> **Vergeet niet te publiceren.** Dit is de meest voorkomende reden waarom een wijziging "niet werkt". Zie ook [Troubleshooting](/13-troubleshooting/).
+
+Zodra je publiceert, is de wijziging **meteen live** op de website. Er is quasi geen wachttijd (zie [Publiceren & versheid](/07-publiceren-versheid/)).

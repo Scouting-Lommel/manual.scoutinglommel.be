@@ -16,9 +16,9 @@ Dat betekent voor jou:
 ## Hoe publiceer je?
 
 1. Bewerk de inhoud in het CMS.
-2. Klik op **Publiceren** (niet alleen Opslaan. Zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
-3. Open de pagina op de website. Zie je je wijziging niet? Herlaad de pagina eens (toets **F5** of **Cmd+R**). Dan verschijnt ze.
+2. Klik op **Publiceren** (niet alleen Opslaan. Zie [Een pagina bewerken](/05-pagina-bewerken/)).
+3. Open de pagina op de website. Zie je je wijziging niet? Herlaad de pagina (toets **F5** of **Cmd+R**). Dan verschijnt ze.
 
-> **Tip:** soms toont je browser een oude versie van de pagina. Gebruik een **harde herlading** om de nieuwste versie op te halen: **Cmd + Shift + R** (Mac) of **Ctrl + Shift + R** (Windows).
+> **Tip:** soms toont je browser een oude versie van de pagina. Gebruik een **hard refresh** om de nieuwste versie op te halen: **Cmd + Shift + R** (Mac) of **Ctrl + Shift + R** (Windows).
 
-Zie je je wijziging ook na een herladen niet? Kijk dan bij [10 · Troubleshooting](/10-troubleshooting/).
+Zie je je wijziging ook na een herladen niet? Kijk dan bij [Troubleshooting](/13-troubleshooting/).

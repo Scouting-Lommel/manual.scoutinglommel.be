@@ -26,11 +26,11 @@ Elke pagina van de website is een apart soort inhoud:
 - Pagina - Drugs- en alcoholbeleid
 - Pagina - Artikels
 
-Je bouwt een pagina op met **blokken**: titels, teksten, foto's, kalenders, ... Hoe dat werkt, lees je in [04 · Een pagina bewerken](/04-pagina-bewerken/).
+Je bouwt een pagina op met **blokken**: titels, teksten, foto's, kalenders, ... Hoe dat werkt, lees je in [Een pagina bewerken](/05-pagina-bewerken/).
 
 <figure>
   <img src="/captures/admin-homepage-edit.png" alt="De homepage bewerken in het CMS" />
-  <figcaption>De homepage bewerken: elke pagina is opgebouwd uit blokken.</figcaption>
+  <figcaption><em>De homepage bewerken: elke pagina is opgebouwd uit blokken.</em></figcaption>
 </figure>
 
 ## Takken
@@ -48,45 +48,33 @@ Belangrijkste velden:
 
 <figure>
   <img src="/captures/admin-groups-list.png" alt="De lijst van takken in het CMS" />
-  <figcaption>De lijst van takken in het CMS.</figcaption>
+  <figcaption><em>De lijst van takken in het CMS.</em></figcaption>
 </figure>
 
 <figure>
   <img src="/captures/admin-group-edit.png" alt="Eén tak bewerken in het CMS" />
-  <figcaption>Eén tak bewerken: naam, beschrijving, foto en meer.</figcaption>
+  <figcaption><em>Eén tak bewerken: naam, beschrijving, foto en meer.</em></figcaption>
 </figure>
 
 Op de website zie je het resultaat op [scoutinglommel.be/takken](https://www.scoutinglommel.be/takken):
 
 <figure>
   <img src="/captures/site-takken.png" alt="De takkenpagina op de website" />
-  <figcaption>De takkenpagina op de website, zoals bezoekers die zien.</figcaption>
+  <figcaption><em>De takkenpagina op de website, zoals bezoekers die zien.</em></figcaption>
 </figure>
 
 Elke tak heeft een eigen pagina, bijvoorbeeld [scoutinglommel.be/takken/kapoenen](https://www.scoutinglommel.be/takken/kapoenen):
 
 <figure>
   <img src="/captures/site-tak-slug.png" alt="De pagina van één tak op de website" />
-  <figcaption>De pagina van één tak: naam, beschrijving, foto, leiding en activiteiten.</figcaption>
+  <figcaption><em>De pagina van één tak: naam, beschrijving, foto, leiding en activiteiten.</em></figcaption>
 </figure>
 
 ## Leiders
 
 De leiders van elke tak staan in de verzameling **"Leiders"**. Elke leider is gekoppeld aan een tak en aan een takfunctie (bv. groepsleiding, takleiding). De namen en functies van leiders zijn openbaar: ze verschijnen op de website bij de tak waartoe ze behoren.
 
-> **Let op:** de verzameling **"Leden"** is iets anders. Daar staan persoonlijke gegevens (e-mailadressen, telefoonnummers, adressen) die **nooit** op de website mogen verschijnen. Zie [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).
-
-## Kalender & activiteiten
-
-- **"Evenementen"**: losse evenementen met datum, plaats en beschrijving.
-- **"Activiteiten"**: activiteiten die op de website getoond worden (bv. op de dashboardpagina van een tak).
-- **"Kalender"**: de kalenderweergave op een pagina.
-
-Deze gegevens verschijnen op de website zodra je ze publiceert (zie [06 · Publiceren & versheid](/06-publiceren-versheid/)).
-
-## Tarieven
-
-De verzameling **"Tarieven"** bevat de prijzen (bv. lidgeld, kamp). Op een pagina toon je ze met het blok "Tarieven" (zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
+> **Let op:** de verzameling **"Leden"** is iets anders. Daar staan persoonlijke gegevens (e-mailadressen, telefoonnummers, adressen) die **nooit** op de website mogen verschijnen. Zie [Wat je beter niet doet](/12-wat-je-beter-niet-doet/).
 
 ## Handleidingen
 
@@ -94,7 +82,7 @@ De verzameling **"Handleidingen"** bevat de handleidingen voor de **leiding** va
 
 <figure>
   <img src="/captures/site-handleidingen.png" alt="De handleidingenpagina voor de leiding" />
-  <figcaption>De handleidingenpagina voor de leiding op scoutinglommel.be/handleidingen.</figcaption>
+  <figcaption><em>De handleidingenpagina voor de leiding op scoutinglommel.be/handleidingen.</em></figcaption>
 </figure>
 
 ## Verhuur
@@ -103,40 +91,22 @@ De verzameling **"Verhuurlocaties"** bevat de locaties die de groep verhuurt (lo
 
 <figure>
   <img src="/captures/site-verhuur.png" alt="De verhuurpagina op de website" />
-  <figcaption>De verhuurpagina op de website.</figcaption>
+  <figcaption><em>De verhuurpagina op de website.</em></figcaption>
 </figure>
 
-## Veelgestelde vragen (FAQ)
+## Andere verzamelingen
 
-De verzameling **"Veelgestelde vragen"** bevat vragen en antwoorden die je op een pagina toont met het blok "Veelgestelde vragen" (zie [04 · Een pagina bewerken](/04-pagina-bewerken/)).
-
-## Media
-
-De **"Media Library"** is de centrale plek voor alle foto's en bestanden. Van daaruit voeg je afbeeldingen toe aan pagina's. Zie [05 · Media](/05-media/).
-
-<figure>
-  <img src="/captures/admin-media-library.png" alt="De Media Library in het CMS" />
-  <figcaption>De Media Library: alle foto's en bestanden op één plek.</figcaption>
-</figure>
-
-## Navigatie
-
-Het menu van de website (bovenaan en in de voettekst) beheer je via **"UI Navigation"**. Zie [07 · Navigatie](/07-navigatie/).
-
-<figure>
-  <img src="/captures/admin-navigation.png" alt="De navigatie beheren in het CMS" />
-  <figcaption>De navigatie van de website beheren.</figcaption>
-</figure>
+- **"Evenementen"**: evenementen met datum, plaats en beschrijving.
+- **"Activiteiten"**: activiteiten die op de website getoond worden (deze worden in principe beheerd vanop het dashboard op de website zelf, en niet in het CMS).
+- **"Tarieven"**: de verhuurtarieven. Op een pagina toon je ze met het blok "Tarieven".
+- **"Veelgestelde vragen"**: vragen en antwoorden die je op een pagina toont met het blok "Veelgestelde vragen".
+- **"Jaarthema's"**: jaarthema met o.a. beschrijving en foto
 
 ## Instellingen
 
-Het losse type **"Algemeen"** bevat de algemene instellingen: het logo, de naam van de groep, het adres, de onderhoudspagina en de meldingsbalk. Zie [08 · Instellingen](/08-instellingen/).
+Het losse type **"Algemeen"** bevat de algemene instellingen: het logo, de naam van de groep, het adres, de onderhoudspagina en de meldingsbalk. Zie [Instellingen](/09-instellingen/).
 
 <figure>
   <img src="/captures/admin-settings.png" alt="De algemene instellingen in het CMS" />
-  <figcaption>De algemene instellingen: logo, onderhoudspagina en meldingsbalk.</figcaption>
+  <figcaption><em>De algemene instellingen: logo, onderhoudspagina en meldingsbalk.</em></figcaption>
 </figure>
-
-## Soorten inhoud die je niet hoeft te bewerken
-
-Daarnaast bestaan er enkele soorten inhoud die je in de praktijk zelden of nooit hoeft te bewerken: "Artikels", "Audience", "Socials", "Takfuncties", "Jaarthema's" en "User". Laat die met rust tenzij je weet waarvoor ze dienen. Zie ook [09 · Wat je beter niet doet](/09-wat-je-beter-niet-doet/).

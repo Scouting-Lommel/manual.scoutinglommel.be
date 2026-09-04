@@ -1,17 +1,17 @@
 ---
 title: Werken met verzamelingen
-description: "Hoe je efficiënt werkt met lijsten van items in het CMS: filteren, zoeken, kolommen tonen/verbergen en sorteren."
+description: 'Hoe je efficiënt werkt met lijsten van items in het CMS: filteren, zoeken, kolommen tonen/verbergen en sorteren.'
 ---
 
 Verzamelingen (collection types) zijn lijsten van gelijkaardige items: alle takken, alle evenementen, alle leiders, ... Wanneer je een verzameling opent in het CMS, zie je een overzicht van alle items. Dit overzicht biedt verschillende handige functies om snel te vinden wat je zoekt.
 
 ## Het overzicht van een verzameling
 
-Wanneer je in het Content Manager op een verzameling klikt (bv. "Takken" of "Evenementen"), zie je een tabel met alle items. Elke rij is één item, elke kolom is een veld.
+Wanneer je in de Content Manager op een verzameling klikt (bv. "Takken" of "Evenementen"), zie je een tabel met alle items. Elke rij is één item, elke kolom is een veld.
 
 <figure>
   <img src="/captures/admin-groups-list.png" alt="De lijst van takken in het CMS" />
-  <figcaption>Het overzicht van een verzameling: een tabel met alle items en hun velden.</figcaption>
+  <figcaption><em>Het overzicht van een verzameling: een tabel met alle items en hun velden.</em></figcaption>
 </figure>
 
 ## Zoeken
@@ -21,8 +21,6 @@ Bovenaan het overzicht staat een zoekveld. Typ hier een zoekterm en druk op Ente
 - Het CMS doorzoekt de zichtbare velden van alle items.
 - Je kan zoeken op naam, titel, beschrijving of andere tekstvelden.
 - Om de zoekopdracht te wissen, verwijder je de tekst uit het zoekveld en druk je opnieuw op Enter.
-
-> **Tip:** gebruik de zoekfunctie om snel een specifiek item te vinden in een lange lijst, bv. "kapoenen" in de lijst van takken.
 
 ## Filteren
 
@@ -40,12 +38,12 @@ Je kan meerdere filters tegelijk gebruiken. Om een filter te verwijderen, klik j
 
 ### Veelgebruikte filters
 
-| Filter | Waarvoor? |
-|--------|-----------|
-| **Status** | Toon alleen concepten of alleen gepubliceerde items. |
-| **Naam / Titel** | Toon alleen items met een bepaalde naam. |
-| **Datum** | Toon alleen evenementen in een bepaalde periode. |
-| **Tak** | Toon alleen leiders of evenementen van een bepaalde tak. |
+| Filter           | Waarvoor?                                                |
+| ---------------- | -------------------------------------------------------- |
+| **Status**       | Toon alleen concepten of alleen gepubliceerde items.     |
+| **Naam / Titel** | Toon alleen items met een bepaalde naam.                 |
+| **Datum**        | Toon alleen evenementen in een bepaalde periode.         |
+| **Tak**          | Toon alleen leiders of evenementen van een bepaalde tak. |
 
 > **Tip:** filters zijn handig om snel alle concepten te vinden die je nog moet publiceren, of om alle evenementen van één tak te bekijken.
 
@@ -82,12 +80,12 @@ Onderaan het overzicht kan je kiezen hoeveel items er per pagina getoond worden:
 
 ## Samengevat
 
-| Functie | Waarvoor? | Hoe? |
-|---------|-----------|------|
-| **Zoeken** | Snel een item vinden op naam of tekst. | Typ in het zoekveld bovenaan. |
-| **Filteren** | Alleen items tonen die aan voorwaarden voldoen. | Klik op "Filters", stel regels in en klik "Toepassen". |
-| **Kolommen** | Zelf kiezen welke velden je ziet. | Klik op het tandwiel (⚙️) en vink velden aan of uit. |
-| **Sorteren** | Items rangschikken op een bepaald veld. | Klik op de kolomkop. |
-| **Items per pagina** | Meer of minder items tegelijk tonen. | Kies onderaan het overzicht. |
+| Functie              | Waarvoor?                                       | Hoe?                                                   |
+| -------------------- | ----------------------------------------------- | ------------------------------------------------------ |
+| **Zoeken**           | Snel een item vinden op naam of tekst.          | Typ in het zoekveld bovenaan.                          |
+| **Filteren**         | Alleen items tonen die aan voorwaarden voldoen. | Klik op "Filters", stel regels in en klik "Toepassen". |
+| **Kolommen**         | Zelf kiezen welke velden je ziet.               | Klik op het tandwiel (⚙️) en vink velden aan of uit.   |
+| **Sorteren**         | Items rangschikken op een bepaald veld.         | Klik op de kolomkop.                                   |
+| **Items per pagina** | Meer of minder items tegelijk tonen.            | Kies onderaan het overzicht.                           |
 
 > **Tip:** combineer zoeken, filteren en sorteren om snel te vinden wat je zoekt. Bijvoorbeeld: filter op "Status = Gepubliceerd", sorteer op "Datum" en zoek op "kamp" om alle gepubliceerde kampen te vinden.
